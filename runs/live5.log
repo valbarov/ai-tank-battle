@@ -1,0 +1,199 @@
+viewer: http://127.0.0.1:8765/viewer.html
+r01 D  sonnet #1 [3.9s] UP    | D moved UP to (12, 11) | I move out toward the middle. The steel wall at (12,7) shields me from B's column.
+r01 B  sonnet #2 [5.1s] LEFT  | B moved LEFT to (11, 2) | I move out of my corner toward the open middle, where I can reach the enemy tanks and base
+r01 A   haiku #3 [5.5s] DOWN  | A moved DOWN to (2, 3) | Moving down toward row 5, which is fully open, gives me a clear shooting lane across the b
+r01 C   haiku #4 [7.3s] RIGHT | C moved RIGHT to (3, 12) | Steel at (7,12) blocks row 12, so moving to (3,12) keeps me safe from D while getting clos
+r02 D  sonnet #1 [5.1s] LEFT  | D moved LEFT to (11, 11) | I head to column 9 to pass the steel wall and go up toward B's base.
+r02 C   haiku #2 [5.2s] RIGHT | C moved RIGHT to (4, 12) | Moving to (4,12) keeps me safe, since steel at (4,7) and (7,12) blocks the lines from A an
+r02 A   haiku #3 [5.3s] RIGHT | A moved RIGHT to (3, 3) | Moving to (3,3) puts me in column 3, where C at (3,12) has a clear line, so I can turn dow
+r02 B  sonnet #4 [8.2s] DOWN  | B moved DOWN to (11, 3) | Steel blocks row 2 at column 7, so I go down to row 5 to cross the board toward A's base.
+r03 D  sonnet #1 [2.6s] LEFT  | D moved LEFT to (10, 11) | I keep moving toward column 9 to get through the gap in the middle.
+r03 B  sonnet #2 [3.1s] DOWN  | B moved DOWN to (11, 4) | I keep heading to row 5 to cross the middle, and the steel walls in column 7 and row 7 shi
+r03 A   haiku #3 [4.2s] RIGHT | A moved RIGHT to (4, 3) | Moving to (4,3) lines me up with column 4, so the next DOWN move takes me to (4,4) facing 
+r03 C   haiku #4 [4.6s] STAY  | C stayed at (4, 12) | Steel at (4,7), (7,11), and (7,12) blocks every line of fire toward my tank, and no enemy 
+r04 D  sonnet #1 [2.4s] LEFT  | D moved LEFT to (9, 11) | Column 9 is open past the middle wall, so I step into it.
+r04 A   haiku #2 [2.7s] DOWN  | A moved DOWN to (4, 4) | Moving down to (4,4) makes me face column 4, where C sits at (4,12) with a clear line of e
+r04 C   haiku #3 [2.7s] STAY  | C stayed at (4, 12) | Steel at (4,7), (7,11), and (7,12) still blocks every line to my tank, and no enemy has a 
+r04 B  sonnet #4 [2.8s] DOWN  | B moved DOWN to (11, 5) | I step into row 5 to cross the middle, ready to shoot A if it comes into my row.
+r05 D  sonnet #1 [2.6s] UP    | D moved UP to (9, 10) | I go up column 9 toward the gap in the middle wall.
+r05 B  sonnet #2 [2.7s] LEFT  | B moved LEFT to (10, 5) | I move west along row 5 and face left, so I can shoot A if it steps into this row.
+r05 C   haiku #3 [2.8s] STAY  | C stayed at (4, 12) | Steel at (4,7), (7,11), and (7,12) still blocks every line of fire to my tank, so staying 
+r05 A   haiku #4 [2.9s] FIRE  | A fired DOWN from (4, 4): shell hit steel at (4,7) | I am facing DOWN in column 4 with empty cells from (4,5) to (4,11), so my shell will reach
+r06 C   haiku #1 [2.6s] STAY  | C stayed at (4, 12) | Steel at (4,7), (7,10), (7,11), and (7,12) still blocks every line of fire to my tank, so 
+r06 D  sonnet #2 [2.9s] UP    | D moved UP to (9, 9) | I keep climbing column 9 and stay ready to shoot up if B steps into it.
+r06 A   haiku #3 [3.2s] FIRE  | A fired DOWN from (4, 4): shell hit steel at (4,7) | The column 4 line from (4,4) down to C at (4,12) is still clear, and last round's shot was
+r06 B  sonnet #4 [5.1s] STAY  | B stayed at (10, 5) | D is moving up column 9, so I stay out of that column and keep facing left, ready to shoot
+r07 D  sonnet #1 [2.6s] UP    | D moved UP to (9, 8) | I keep moving up column 9 toward the gap and B's side.
+r07 B  sonnet #2 [2.9s] STAY  | B stayed at (10, 5) | D keeps coming up column 9, so I wait at (10,5) facing left to shoot it when it reaches ro
+r07 C   haiku #3 [3.2s] STAY  | C stayed at (4, 12) | D at (9,9) is not in line with my tank, and steel at (4,7), (7,10), (7,11), and (7,12) sti
+r07 A   haiku #4 [3.7s] FIRE  | A fired DOWN from (4, 4): shell hit steel at (4,7) | The column 4 line from (4,4) down to C at (4,12) is still open, so I keep firing at C.
+r08 B  sonnet #1 [3.2s] STAY  | B stayed at (10, 5) | D is two moves from row 5 in column 9, so I hold my spot and keep my aim down row 5.
+r08 D  sonnet #2 [3.5s] UP    | D moved UP to (9, 7) | I enter the gap at (9,7), which is not in B's row or column.
+r08 A   haiku #3 [4.3s] DOWN  | A moved DOWN to (4, 5) | My shots at C have not registered for three rounds, so I move to (4,5) to get on row 5, wh
+r08 C   haiku #4 [5.5s] STAY  | C stayed at (4, 12) | D at (9,8) is not lined up with my tank yet, and if it moves into a column above me I can 
+r09 B  sonnet #1 [2.8s] FIRE  | B fired LEFT: HIT tank A at (4, 5), A has 2 lives, respawned at (2, 2) | A is in my row at (4,5) with a clear line, and I am facing left, so I can hit it now.
+r09 A   haiku #2 [3.1s] RIGHT | A moved RIGHT to (3, 2) | Moving right to (5,5) keeps me on row 5 with an open line to B at (10,5), so I can fire ne
+r09 C   haiku #3 [3.2s] STAY  | C stayed at (4, 12) | Neither D at (9,7) nor A at (4,5) has a clear line to my tank, since steel at (4,7) blocks
+r09 D  sonnet #4 [3.4s] UP    | D moved UP to (9, 6) | (9,6) is diagonal to B, so B cannot hit me there.
+r10 C   haiku #1 [2.7s] STAY  | C stayed at (4, 12) | No enemy tank is lined up with my tank at (4,12), and steel blocks the open columns, so wa
+r10 B  sonnet #2 [3.3s] STAY  | B stayed at (10, 5) | D is diagonal to me at (9,6), and if it steps into (9,5) I will shoot it from my left-faci
+r10 D  sonnet #3 [3.3s] RIGHT | D moved RIGHT to (10, 6) | I move under B at (10,6), where B's left-facing gun cannot hit me, then I can turn up and 
+r10 A   haiku #4 [4.4s] DOWN  | A moved DOWN to (3, 3) | Moving down column 3 starts my route toward row 5, where B at (10,5) has an open line, and
+r11 D  sonnet #1 [2.3s] UP    | D turned UP at (10, 6) (blocked) | B blocks the cell, so I only turn to face B before I fire.
+r11 C   haiku #2 [2.7s] STAY  | C stayed at (4, 12) | Steel at (3,7) blocks A's column, and no enemy tank is lined up with my tank at (4,12).
+r11 B  sonnet #3 [3.0s] DOWN  | B turned DOWN at (10, 5) (blocked) | D is directly below me, so this turns me to face it without moving, and I can fire next tu
+r11 A   haiku #4 [3.3s] DOWN  | A moved DOWN to (3, 4) | Moving to (3,4) continues my route toward row 5, where B at (10,5) has an open line once I
+r12 B  sonnet #1 [2.6s] FIRE  | B fired DOWN: HIT tank D at (10, 6), D has 2 lives, respawned at (12, 12) | D is directly below me and I am facing it, so I shoot first.
+r12 D  sonnet #2 [2.7s] FIRE  | D fired LEFT from (12, 12): shell hit steel at (7,12) | B is right above me and faces down at me, so I shoot first.
+r12 C   haiku #3 [3.0s] STAY  | C stayed at (4, 12) | Steel at (3,7) blocks A's column, D and B block each other in column 10, and none of them 
+r12 A   haiku #4 [4.0s] DOWN  | A moved DOWN to (3, 5) | Moving to (3,5) puts me on row 5, where B at (10,5) is only seven empty cells away, so one
+r13 C   haiku #1 [2.6s] STAY  | C stayed at (4, 12) | Steel at (7,12) blocks D's row and steel at (3,7) blocks A's column, so my tank at (4,12) 
+r13 A   haiku #2 [3.2s] RIGHT | A moved RIGHT to (4, 5) | Moving to (4,5) turns me to face row 5, where B at (10,5) has a clear line of empty cells,
+r13 D  sonnet #3 [3.2s] UP    | D moved UP to (12, 11) | B hit me first, so I go back toward column 9 and try again, avoiding B's line.
+r13 B  sonnet #4 [3.9s] LEFT  | B moved LEFT to (9, 5) | A is in my row at (3,5), so I turn left (moving one cell) to line up a shot at it.
+r14 A   haiku #1 [2.7s] FIRE  | A fired RIGHT: HIT tank B at (9, 5), B has 2 lives, respawned at (12, 2) | B at (9,5) is on my row with only empty cells between us, and B is facing me, so I fire fi
+r14 C   haiku #2 [2.8s] STAY  | C stayed at (4, 12) | Steel at (4,7) blocks A's column and steel at (7,12) blocks row 12, so my tank at (4,12) i
+r14 D  sonnet #3 [2.9s] LEFT  | D moved LEFT to (11, 11) | A and B face each other in row 5, so I let them fight and move toward the gap.
+r14 B  sonnet #4 [4.3s] FIRE  | B fired LEFT from (12, 2): shell hit steel at (7,2) | A is now facing right in my row with a clear line, so I shoot first.
+r15 C   haiku #1 [2.5s] STAY  | C stayed at (4, 12) | Steel at (4,7), (7,11), and (7,12) still blocks every line of fire to my tank, and no enem
+r15 B  sonnet #2 [4.3s] DOWN  | B moved DOWN to (12, 3) | A's shot respawned me in my corner, so I head back toward row 5 while keeping out of A's f
+r15 D  sonnet #3 [4.5s] LEFT  | D moved LEFT to (10, 11) | I keep heading to column 9 to go through the gap, toward C's base.
+r15 A   haiku #4 [5.3s] RIGHT | A moved RIGHT to (5, 5) | Column 4 is blocked by steel at (4,7), which explains my misses on C, so I move right alon
+r16 D  sonnet #1 [2.6s] LEFT  | D moved LEFT to (9, 11) | I step into column 9 to pass the middle wall.
+r16 C   haiku #2 [3.5s] STAY  | C stayed at (4, 12) | A at (5,5) is not in my column or row, and steel at (7,11) and (7,12) still blocks D's sho
+r16 A   haiku #3 [3.9s] RIGHT | A moved RIGHT to (6, 5) | Moving to (6,5) continues toward the gap in row 7 at columns 5 to 9, which is my only rout
+r16 B  sonnet #4 [5.4s] STAY  | B stayed at (12, 3) | A is moving right along row 5, so I wait at (12,3) facing down to shoot it if it enters co
+r17 B  sonnet #1 [2.3s] STAY  | B stayed at (12, 3) | A keeps moving right along row 5, so I hold my spot facing down and wait for it to reach c
+r17 C   haiku #2 [2.5s] STAY  | C stayed at (4, 12) | A at (6,5) and D at (9,11) are not lined up with my tank at (4,12), and steel at (7,11) an
+r17 A   haiku #3 [3.2s] RIGHT | A moved RIGHT to (7, 5) | Moving to (7,5) brings me toward column 9, where D at (9,11) has an open line down from th
+r17 D  sonnet #4 [4.0s] UP    | D moved UP to (9, 10) | I go up to row 9 so I can pass the wall and swing left toward C's base.
+r18 B  sonnet #1 [2.4s] STAY  | B stayed at (12, 3) | A is still coming along row 5 and I am out of its line, so I keep waiting at (12,3) facing
+r18 C   haiku #2 [2.8s] STAY  | C stayed at (4, 12) | A at (7,5) and D at (9,10) are not lined up with my tank at (4,12), and steel at (7,10) bl
+r18 D  sonnet #3 [3.1s] UP    | D moved UP to (9, 9) | I reach row 9, then I turn left out of column 9, which A may use.
+r18 A   haiku #4 [3.3s] RIGHT | A moved RIGHT to (8, 5) | Moving to (8,5) keeps me on the route to column 9, where D at (9,10) is now the closest ta
+r19 B  sonnet #1 [2.3s] STAY  | B stayed at (12, 3) | A is four cells from column 12 on row 5, and I stay out of its line while facing down to s
+r19 C   haiku #2 [2.7s] STAY  | C stayed at (4, 12) | A at (8,5), D at (9,9), and B at (12,3) are not lined up with my tank at (4,12), so no sho
+r19 A   haiku #3 [2.9s] RIGHT | A moved RIGHT to (9, 5) | Moving to (9,5) puts me in column 9, so a DOWN move next takes me to (9,6) facing D at (9,
+r19 D  sonnet #4 [4.3s] LEFT  | D moved LEFT to (8, 9) | I move west along row 9 toward C's base, and I keep moving so A cannot line up a shot.
+r20 B  sonnet #1 [2.4s] STAY  | B stayed at (12, 3) | A is three cells from column 12 on row 5, and I keep my down-facing aim and wait for it to
+r20 D  sonnet #2 [2.4s] LEFT  | D moved LEFT to (7, 9) | I keep going west on row 9 and stay out of A's column.
+r20 C   haiku #3 [2.9s] STAY  | C stayed at (4, 12) | D at (8,9) is not lined up with my tank at (4,12), and A and B have no line to me either, 
+r20 A   haiku #4 [3.7s] LEFT  | A moved LEFT to (8, 5) | Moving to (8,5) puts me in column 8, where D at (8,9) has an empty line above it, so a DOW
+r21 D  sonnet #1 [2.9s] LEFT  | D moved LEFT to (6, 9) | I move on to column 6, then go down toward C's base.
+r21 C   haiku #2 [2.9s] STAY  | C stayed at (4, 12) | D at (7,9) is not in my row or column, and A and B have no shot at my tank, so I keep wait
+r21 A   haiku #3 [3.4s] LEFT  | A moved LEFT to (7, 5) | Moving to (7,5) puts me in column 7, where D at (7,9) sits above the steel at (7,10) with 
+r21 B  sonnet #4 [4.0s] DOWN  | B moved DOWN to (12, 4) | A and D are both drifting west, so I start the long trip to D's base at (13,13), which loo
+r22 B  sonnet #1 [2.9s] DOWN  | B moved DOWN to (12, 5) | A faces left and away from me, so I cross row 5 quickly on my way to D's base.
+r22 A   haiku #2 [3.0s] LEFT  | A moved LEFT to (6, 5) | Moving to (6,5) puts me in column 6, where D at (6,9) has open cells (6,6) to (6,8) betwee
+r22 D  sonnet #3 [3.3s] DOWN  | D moved DOWN to (6, 10) | I go down column 6 toward row 13 and C's base.
+r22 C   haiku #4 [3.5s] STAY  | C stayed at (4, 12) | D at (6,9) is not in my row or column yet, and A and B have no line to my tank, so I can w
+r23 B  sonnet #1 [2.5s] DOWN  | B moved DOWN to (12, 6) | I leave row 5 for row 6 and keep going toward D's base while A faces away.
+r23 D  sonnet #2 [4.0s] LEFT  | D moved LEFT to (5, 10) | I leave column 6 so A cannot shoot down at me.
+r23 A   haiku #3 [4.7s] DOWN  | A moved DOWN to (6, 6) | Moving to (6,6) faces me down column 6 toward D at (6,10), with open cells (6,7) to (6,9) 
+r23 C   haiku #4 [5.6s] STAY  | C stayed at (4, 12) | D at (6,10) is not in my row or column, and it needs two moves to line up with my tank, so
+r24 A   haiku #1 [3.7s] RIGHT | A moved RIGHT to (7, 6) | Moving to (7,6) faces me right along row 6, where B at (12,6) has an open line, so I can f
+r24 B  sonnet #2 [4.9s] LEFT  | B moved LEFT to (11, 6) | A is in my row, so I turn to face it and prepare to fire.
+r24 D  sonnet #3 [5.9s] LEFT  | D moved LEFT to (4, 10) | I dodged A, so I continue west along row 10 and then down column 3 to C's base.
+r24 C   haiku #4 [6.5s] RIGHT | C moved RIGHT to (5, 12) | Moving to (5,12) keeps me out of D's line, since D cannot shoot me in one action from (5,1
+r25 A   haiku #1 [2.4s] FIRE  | A fired RIGHT: HIT tank B at (11, 6), B has 1 lives, respawned at (12, 2) | B at (11,6) is on my row with only empty cells between us, and it is facing me, so I shoot
+r25 B  sonnet #2 [2.5s] FIRE  | B fired LEFT from (12, 2): shell hit steel at (7,2) | A is in my row at (7,6) with a clear line and I am facing it, so I shoot now.
+r25 D  sonnet #3 [2.6s] LEFT  | D moved LEFT to (3, 10) | I continue to column 3 to reach C's base while C is off to the side.
+r25 C   haiku #4 [4.5s] STAY  | C stayed at (5, 12) | D at (4,10) cannot hit my tank at (5,12) in one action, and if D steps into column 5 or ro
+r26 D  sonnet #1 [2.7s] DOWN  | D moved DOWN to (3, 11) | I go down column 3 toward (3,13), away from C's firing line in row 12 only until I cross i
+r26 A   haiku #2 [5.2s] RIGHT | A moved RIGHT to (8, 6) | B has retreated to (12,2) with one life left, so I move right along the open row 6 toward 
+r26 C   haiku #3 [5.3s] UP    | C moved UP to (5, 11) | I will move toward the open right side to reach column 13, where I can shoot the brick abo
+r26 B  sonnet #4 [5.8s] STAY  | B stayed at (12, 2) | I have one life left and A fires faster than I do, so I guard my base from the corner and 
+r27 A   haiku #1 [2.4s] RIGHT | A moved RIGHT to (9, 6) | Moving to (9,6) keeps me on the open row 6 heading toward column 12, where I can turn up o
+r27 B  sonnet #2 [2.9s] STAY  | B stayed at (12, 2) | A is coming my way along row 6, so I keep waiting in my corner with my aim down row 2.
+r27 D  sonnet #3 [4.5s] DOWN  | D moved DOWN to (3, 12) | I leave C's row and keep heading to (3,13) next to C's base.
+r27 C   haiku #4 [4.7s] RIGHT | C moved RIGHT to (6, 11) | D at (3,11) is in my row but faces DOWN, so it needs a turn and a move before it can shoot
+r28 D  sonnet #1 [2.6s] DOWN  | D moved DOWN to (3, 13) | I move to (3,13), next to the brick in front of C's base.
+r28 C   haiku #2 [3.2s] UP    | C moved UP to (6, 10) | I am heading to the open lane at row 9, and no enemy tank is lined up with (6,10) right no
+r28 A   haiku #3 [3.6s] RIGHT | A moved RIGHT to (10, 6) | Moving to (10,6) keeps me on the open row 6 toward column 12, where I can turn up and aim 
+r28 B  sonnet #4 [5.5s] DOWN  | B moved DOWN to (12, 3) | I move to (12,3) facing down so I cover column 12 and can reach column 13 to protect my ba
+r29 D  sonnet #1 [2.3s] LEFT  | D turned LEFT at (3, 13) (blocked) | The brick at (2,13) blocks me, so I only turn to face it before I shoot.
+r29 B  sonnet #2 [2.7s] STAY  | B stayed at (12, 3) | A is coming along row 6 toward column 12, so I hold at (12,3) facing down and shoot when i
+r29 A   haiku #3 [5.9s] UP    | A moved UP to (10, 5) | Moving up column 10 toward row 3 lets me approach B at (12,3) from the side, where it is f
+r29 C   haiku #4 [6.0s] DOWN  | C moved DOWN to (6, 11) | D at (3,13) can open the brick at (2,13) and then shoot my base at (1,13), so I need to mo
+r30 D  sonnet #1 [2.4s] FIRE  | D fired LEFT from (3, 13): destroyed brick at (2,13) | I destroy the brick at (2,13) so the next shot can hit C's base.
+r30 A   haiku #2 [3.1s] UP    | A moved UP to (10, 4) | Moving to (10,4) continues my approach to row 3, where B at (12,3) is only two cells away 
+r30 C   haiku #3 [5.6s] DOWN  | C moved DOWN to (6, 12) | D at (3,13) is facing my base's brick wall at (2,13), so I need to reach row 13 as fast as
+r30 B  sonnet #4 [5.6s] LEFT  | B moved LEFT to (11, 3) | A is climbing column 10, so I move to (11,3) facing left to shoot it if it reaches row 3 n
+r31 D  sonnet #1 [2.6s] FIRE  | D fired LEFT: DESTROYED base of C at (1, 13), player C is out | The brick is gone, so this shot flies to C's base at (1,13) and destroys it.
+r31 A   haiku #2 [4.2s] RIGHT | A moved RIGHT to (11, 4) | Moving to (11,4) puts me directly below B at (11,3), out of its line of fire since it face
+r31 B  sonnet #3 [4.3s] FIRE  | B fired LEFT from (11, 3): shell hit steel at (7,3) | If A steps up to (10,3) first, my shell hits it, and otherwise the shell is harmless again
+r31 C   haiku #4 [5.3s] STAY  |  | (no tank: hit before this move was applied)
+r32 A   haiku #1 [3.4s] UP    | A turned UP at (11, 4) (blocked) | B is directly above me at (11,3), so UP only turns me to face it, and I can fire on my nex
+r32 B  sonnet #2 [3.8s] DOWN  | B turned DOWN at (11, 3) (blocked) | A is directly below me, so this turns me to face it, and if it moves away I keep chasing i
+r32 D  sonnet #3 [5.7s] UP    | D moved UP to (3, 12) | C's base is gone, so I head north around the steel wall to reach A's base at (1,1).
+r33 D  sonnet #1 [2.6s] UP    | D moved UP to (3, 11) | I keep going up column 3 to row 8, then around the wall.
+r33 B  sonnet #2 [2.8s] FIRE  | B fired DOWN: HIT tank A at (11, 4), A has 1 lives, respawned at (2, 2) | Both of us face each other, and I fire now to hit A before it shoots me.
+r33 A   haiku #3 [3.1s] FIRE  | A fired RIGHT from (2, 2): shell hit steel at (7,2) | B is adjacent above me at (11,3) and facing down at me, so I fire first to hit it.
+r34 D  sonnet #1 [2.9s] UP    | D moved UP to (3, 10) | I continue north along column 3 toward the gap at row 8.
+r34 A   haiku #2 [4.5s] STAY  | A stayed at (2, 2) | I have one life left and am on a safe square at (2,2), where no enemy has a clear line, so
+r34 B  sonnet #3 [6.7s] DOWN  | B moved DOWN to (11, 4) | A is back at its spawn and D is far from its base, so I head for column 13 below the steel
+r35 B  sonnet #1 [2.9s] DOWN  | B moved DOWN to (11, 5) | I keep moving toward the gap in the steel wall to reach column 13 and shoot D's base.
+r35 A   haiku #2 [3.3s] STAY  | A stayed at (2, 2) | D at (3,10) faces up along open column 3, so stepping into column 3 would put me in its li
+r35 D  sonnet #3 [3.4s] UP    | D moved UP to (3, 9) | I keep moving toward the gap at (5,7).
+r36 B  sonnet #1 [3.0s] DOWN  | B moved DOWN to (11, 6) | I keep moving along my route to the gap in the steel wall.
+r36 D  sonnet #2 [3.4s] UP    | D moved UP to (3, 8) | I go to row 8 and then east to the gap at (5,7).
+r36 A   haiku #3 [4.6s] STAY  | A stayed at (2, 2) | I'm already facing RIGHT toward (3,2), so if D walks up column 3 into that cell I can fire
+r37 B  sonnet #1 [2.6s] LEFT  | B moved LEFT to (10, 6) | I move west along row 6 to the gap at column 9.
+r37 D  sonnet #2 [2.7s] RIGHT | D moved RIGHT to (4, 8) | I move east along row 8 to column 5, where the wall has a gap.
+r37 A   haiku #3 [3.0s] STAY  | A stayed at (2, 2) | D is coming up column 3 at (3,8), and I am already facing RIGHT toward (3,2), so I can hit
+r38 D  sonnet #1 [2.9s] RIGHT | D moved RIGHT to (5, 8) | I move to column 5 under the gap, and I watch B's row 6.
+r38 A   haiku #2 [4.8s] STAY  | A stayed at (2, 2) | D has moved to (4,8) facing right and cannot hit me at (2,2), and I have one life, so I ke
+r38 B  sonnet #3 [6.0s] LEFT  | B moved LEFT to (9, 6) | I reach column 9 above the gap and then pick the right moment to cross, since D is moving 
+r39 A   haiku #1 [3.2s] STAY  | A stayed at (2, 2) | No enemy is in line with my tank at (2,2), and with one life left I should keep this safe 
+r39 D  sonnet #2 [3.7s] UP    | D moved UP to (5, 7) | I step into the gap at (5,7), just below row 6, where B's left-facing gun cannot hit me.
+r39 B  sonnet #3 [4.9s] DOWN  | B moved DOWN to (9, 7) | At (9,7) I face down over row 8, so if D walks to (9,8) I can shoot it first.
+r40 A   haiku #1 [3.0s] STAY  | A stayed at (2, 2) | No enemy shares row 2 or column 2 with my tank at (2,2), so staying keeps me out of their 
+r40 D  sonnet #2 [3.3s] UP    | D moved UP to (5, 6) | I leave row 7 where B could shoot me, and I head north.
+r40 B  sonnet #3 [3.8s] DOWN  | B moved DOWN to (9, 8) | D is in my row at (5,7), so I step down out of its line and continue toward column 13.
+r41 B  sonnet #1 [2.8s] RIGHT | B moved RIGHT to (10, 8) | D is heading north and away from its base, so I move east along row 8 toward column 13.
+r41 A   haiku #2 [3.5s] STAY  | A stayed at (2, 2) | D at (5,6) is moving up column 5, and if it steps onto row 2 it will be in my line of fire
+r41 D  sonnet #3 [7.6s] UP    | D moved UP to (5, 5) | The shortest route to A's base is up column 5, then left along row 1 to shoot the brick at
+r42 D  sonnet #1 [2.5s] UP    | D moved UP to (5, 4) | I keep going up column 5 toward row 1.
+r42 A   haiku #2 [2.6s] STAY  | A stayed at (2, 2) | No enemy shares row 2 or column 2 with my tank, and D is moving up column 5 where it would
+r42 B  sonnet #3 [2.9s] RIGHT | B moved RIGHT to (11, 8) | I keep going east along row 8 while D moves farther away.
+r43 A   haiku #1 [2.7s] STAY  | A stayed at (2, 2) | D is moving up column 5 at (5,4), not my row or column, so my tank at (2,2) remains out of
+r43 B  sonnet #2 [2.9s] RIGHT | B moved RIGHT to (12, 8) | I move to (12,8) on the way to column 13.
+r43 D  sonnet #3 [6.3s] UP    | D moved UP to (5, 3) | I race B to the base kill, and the route up column 5 to row 1 is the shortest.
+r44 B  sonnet #1 [2.6s] RIGHT | B moved RIGHT to (13, 8) | I step to (13,8), where I can turn down and shoot through the brick at D's base.
+r44 D  sonnet #2 [3.0s] UP    | D moved UP to (5, 2) | I keep racing to row 1; B is still several moves from my base.
+r44 A   haiku #3 [4.0s] STAY  | A stayed at (2, 2) | D at (5,3) is one step from row 2, and if it moves onto (5,2) it will be in my line of fir
+r45 B  sonnet #1 [3.0s] DOWN  | B moved DOWN to (13, 9) | I turn to face down column 13 toward D's base, moving one cell closer.
+r45 D  sonnet #2 [3.0s] UP    | D moved UP to (5, 1) | I leave A's firing row 2 and reach row 1.
+r45 A   haiku #3 [3.2s] FIRE  | A fired RIGHT from (2, 2): shell hit steel at (7,2) | D is at (5,2) on my row with only empty cells (3,2) and (4,2) between us, and I already fa
+r46 B  sonnet #1 [2.6s] FIRE  | B fired DOWN from (13, 9): destroyed brick at (13,12) | I face down column 13, and my shell will break the brick above D's base so the next shot c
+r46 A   haiku #2 [3.2s] STAY  | A stayed at (2, 2) | D moved to (5,1), which is off my row and column, and the brick at (2,1) protects my base 
+r46 D  sonnet #3 [5.1s] LEFT  | D moved LEFT to (4, 1) | I cannot stop B from here, so I race on to shoot the brick at (2,1) and A's base.
+r47 B  sonnet #1 [2.5s] FIRE  | B fired DOWN: DESTROYED base of D at (13, 13), player D is out | The brick in front of D's base is gone, so this shot should destroy the base.
+r47 A   haiku #2 [3.7s] STAY  | A stayed at (2, 2) | D at (4,1) faces left toward the brick at (2,1), and no enemy shares my row 2 or column 2,
+r47 D  sonnet #3 [3.8s] STAY  |  | (no tank: hit before this move was applied)
+r48 B  sonnet #1 [10.2s] LEFT  | B moved LEFT to (12, 9) | Only A's base is left to destroy, so I head west across row 9 toward the gap and A's base,
+r48 A   haiku #2 [13.7s] DOWN  | A moved DOWN to (2, 3) | Only my base 'a' and B's base 'b' remain, so I must destroy b, and the route to its walls 
+r49 B  sonnet #1 [2.6s] LEFT  | B moved LEFT to (11, 9) | I keep moving west toward the gap in the steel wall, since A's base is the only target lef
+r49 A   haiku #2 [3.1s] DOWN  | A moved DOWN to (2, 4) | I keep heading to row 5 so I can reach the open column near b's walls, and nothing is alig
+r50 A   haiku #1 [2.8s] DOWN  | A moved DOWN to (2, 5) | Moving to (2,5) puts me on the fully open row 5, the only lane that leads toward b's walls
+r50 B  sonnet #2 [2.9s] LEFT  | B moved LEFT to (10, 9) | I continue west toward the gap in the steel wall and A's base, the only way left to win.
+r51 A   haiku #1 [2.9s] RIGHT | A moved RIGHT to (3, 5) | Moving along the open row 5 is the only route toward b's walls, and B at (10,9) is not ali
+r51 B  sonnet #2 [4.1s] LEFT  | B moved LEFT to (9, 9) | A has left its base, so I keep pushing west to take any chance at A's base.
+r52 A   haiku #1 [2.6s] RIGHT | A moved RIGHT to (4, 5) | Continuing along the open row 5 keeps me on the route toward b, and B at (9,9) is not alig
+r52 B  sonnet #2 [5.5s] UP    | B moved UP to (9, 8) | A is heading east toward my base, so I move to (9,8) facing up to cover column 9 and shoot
+r53 B  sonnet #1 [2.7s] STAY  | B stayed at (9, 8) | I hold at (9,8) facing up so I can shoot A if it steps into column 9 on its way east.
+r53 A   haiku #2 [3.7s] STAY  | A stayed at (4, 5) | B at (9,8) is moving up column 9 toward row 5, and with one life left I should hold my pos
+r54 A   haiku #1 [2.8s] STAY  | A stayed at (4, 5) | B is still at (9,8) and not in my row or column, so holding (4,5) facing right keeps me sa
+r54 B  sonnet #2 [2.8s] STAY  | B stayed at (9, 8) | A has stopped at (4,5), so I keep my position facing up and wait for it to cross column 9.
+r55 A   haiku #1 [2.9s] STAY  | A stayed at (4, 5) | B is still at (9,8), not in my row or column, and with five rounds left I cannot reach b's
+r55 B  sonnet #2 [3.2s] STAY  | B stayed at (9, 8) | A is holding still and cannot reach my base before the round limit if it stays, so I keep 
+r56 B  sonnet #1 [2.7s] STAY  | B stayed at (9, 8) | A is not moving, so I keep guarding my base and facing up.
+r56 A   haiku #2 [2.8s] STAY  | A stayed at (4, 5) | B has stayed at (9,8) for several rounds and is not in my line, so I keep my safe position
+r57 B  sonnet #1 [3.0s] STAY  | B stayed at (9, 8) | A is still at (4,5) and my base is safe, so I hold my spot until the game ends.
+r57 A   haiku #2 [3.0s] STAY  | A stayed at (4, 5) | B is still at (9,8) with no line to my tank, and with only four rounds left no win is reac
+r58 B  sonnet #1 [2.4s] STAY  | B stayed at (9, 8) | Only two rounds remain and A is not moving, so I keep my base safe.
+r58 A   haiku #2 [2.5s] STAY  | A stayed at (4, 5) | B remains at (9,8), outside my row and column, and with three rounds left I cannot reach b
+r59 A   haiku #1 [2.7s] STAY  | A stayed at (4, 5) | B is still at (9,8) with no line to my tank, and with two rounds left neither of us can de
+r59 B  sonnet #2 [2.9s] STAY  | B stayed at (9, 8) | A cannot reach my base in the time left, so I stay put and stay safe.
+r60 A   haiku #1 [2.5s] STAY  | A stayed at (4, 5) | This is the last round, B is still at (9,8) with no line to my tank, and no base can be de
+r60 B  sonnet #2 [2.6s] STAY  | B stayed at (9, 8) | This is the last round and no action of mine can destroy A's base now, so I stay safe.

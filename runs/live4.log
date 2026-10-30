@@ -1,0 +1,116 @@
+viewer: http://127.0.0.1:8765/viewer.html
+r01 A   haiku #1 [3.5s] FIRE  | A fired RIGHT from (2, 2): destroyed brick at (5,2) | I am already facing RIGHT, and the brick at (5, 2) blocks my line of fire, so this shot op
+r01 C   haiku #2 [3.6s] FIRE  | C fired RIGHT from (2, 12): destroyed brick at (5,12) | I face RIGHT, and the brick at (5, 12) is the first thing in line, so the shell opens a pa
+r01 B  sonnet #3 [4.4s] DOWN  | B moved DOWN to (12, 3) | Moving out of the corner toward the middle of the board, while the bricks around my base k
+r01 D  sonnet #4 [4.9s] UP    | D moved UP to (12, 11) | Moving up starts me toward player B's side while my base stays shielded by the walls at (1
+r02 C   haiku #1 [2.7s] RIGHT | C moved RIGHT to (3, 12) | I move to (3, 12), which is empty, to get closer to the center and the other tanks.
+r02 A   haiku #2 [3.2s] RIGHT | A moved RIGHT to (3, 2) | Row 2 is now clear up to the brick at (9, 2), but my shell only reaches 6 cells, so I need
+r02 D  sonnet #3 [5.0s] RIGHT | D moved RIGHT to (13, 11) | Column 13 is open going up toward base b, while column 12 is blocked by bricks.
+r02 B  sonnet #4 [5.1s] RIGHT | B moved RIGHT to (13, 3) | Column 13 is open down to the brick in front of D's base, so I can go there and shoot it, 
+r03 A   haiku #1 [3.0s] FIRE  | A fired RIGHT from (3, 2): destroyed brick at (9,2) | I am at (3, 2) facing RIGHT, and the brick at (9, 2) is exactly 6 cells away, so this shot
+r03 C   haiku #2 [4.1s] RIGHT | C moved RIGHT to (4, 12) | I move to (4, 12), which is empty, to keep closing in on the center and the enemy bases.
+r03 D  sonnet #3 [4.2s] UP    | D moved UP to (13, 10) | I move up column 13 toward B and base b, and B is still beyond shell range.
+r03 B  sonnet #4 [4.8s] DOWN  | B moved DOWN to (13, 4) | D is in my column, so I face down and close in to get a shot at D and then at its base.
+r04 C   haiku #1 [2.7s] FIRE  | C fired RIGHT from (4, 12): destroyed brick at (9,12) | The shell will fly through the empty cells at (5-8, 12) and destroy the brick at (9, 12), 
+r04 D  sonnet #2 [3.7s] FIRE  | D fired UP: HIT tank B at (13, 4), B has 2 lives, respawned at (12, 2) | B is exactly 6 cells ahead in my column and I am facing it, so my shell can hit it.
+r04 B  sonnet #3 [3.7s] FIRE  | B fired LEFT from (12, 2): shell fell short at (6,2) | D is exactly 6 cells below me in my firing line, so my shell can hit it now.
+r04 A   haiku #4 [4.2s] RIGHT | A moved RIGHT to (4, 2) | Row 2 is open to (12, 2), and I need to get close enough to shoot the wall at (12, 1) that
+r05 C   haiku #1 [3.7s] RIGHT | C moved RIGHT to (5, 12) | I move to (5, 12), which is empty, to keep heading east toward the enemy base at (13, 13).
+r05 A   haiku #2 [4.1s] RIGHT | A moved RIGHT to (5, 2) | B is 8 cells away on my row, and its shells reach only 6 cells, so moving to (5, 2) keeps 
+r05 D  sonnet #3 [4.7s] UP    | D moved UP to (13, 9) | I keep moving up column 13 to get within range of the brick at (13,2) and then base b.
+r05 B  sonnet #4 [5.6s] DOWN  | B moved DOWN to (12, 3) | A has a clear shot along row 2, so I step out of that row to avoid being hit.
+r06 C   haiku #1 [2.5s] RIGHT | C moved RIGHT to (6, 12) | I move to (6, 12), which is empty, to keep advancing east toward the enemy base.
+r06 A   haiku #2 [3.2s] RIGHT | A moved RIGHT to (6, 2) | B has left row 2, so I can advance along the open row toward (12, 2) and reach the wall at
+r06 D  sonnet #3 [3.4s] UP    | D moved UP to (13, 8) | I keep advancing up column 13 toward base b, with my gun already facing up in case B steps
+r06 B  sonnet #4 [8.8s] STAY  | B stayed at (12, 3) | D is coming up column 13 where I would be in its line of fire, so I wait beside it and sho
+r07 C   haiku #1 [2.4s] RIGHT | C moved RIGHT to (7, 12) | I move to (7, 12), which is empty, to keep advancing east toward the enemy base.
+r07 A   haiku #2 [3.6s] UP    | A moved UP to (6, 1) | Moving to (6, 1) lets me fire along row 1 at the wall (12, 1) from six cells away, which k
+r07 D  sonnet #3 [5.1s] FIRE  | D fired UP from (13, 8): destroyed brick at (13,2) | From (13,8) my shell reaches the brick at (13,2), which opens the way to base b.
+r07 B  sonnet #4 [6.1s] STAY  | B stayed at (12, 3) | I stay out of column 13 and keep my base brick in place, ready to block or shoot D when it
+r08 A   haiku #1 [3.0s] RIGHT | A moved RIGHT to (7, 1) | I need to face RIGHT toward the wall at (12, 1), and moving to (7, 1) also puts that wall 
+r08 C   haiku #2 [3.1s] FIRE  | C fired RIGHT from (7, 12): destroyed brick at (13,12) | The empty cells (8-12, 12) lead to the brick at (13, 12), which is the only wall between t
+r08 D  sonnet #3 [3.2s] UP    | D moved UP to (13, 7) | At (13,7) base b is exactly 6 cells away, so I can shoot it next turn.
+r08 B  sonnet #4 [12.2s] RIGHT | B moved RIGHT to (13, 3) | The brick over my base is gone, so I move into column 13 to block D's shots at my base and
+r09 C   haiku #1 [2.8s] RIGHT | C moved RIGHT to (8, 12) | I move to (8, 12), which is empty, to keep heading toward the open cell at (13, 12) above 
+r09 A   haiku #2 [2.9s] FIRE  | A fired RIGHT from (7, 1): destroyed brick at (12,1) | I am facing RIGHT on row 1, and the wall at (12, 1) is 5 cells away, so this shot opens th
+r09 D  sonnet #3 [4.5s] FIRE  | D fired UP: HIT tank B at (13, 3), B has 1 lives, respawned at (12, 2) | B is in my column 4 cells ahead and I am facing it, so I hit it and also clear the way to 
+r09 B  sonnet #4 [5.8s] DOWN  | B moved DOWN to (12, 3) | I must stay in column 13 to shield my base, and moving down turns me to face D so I can sh
+r10 C   haiku #1 [2.9s] RIGHT | C moved RIGHT to (9, 12) | I move to (9, 12), which is empty, to get closer to the open cell at (13, 12) so I can rea
+r10 A   haiku #2 [3.1s] FIRE  | A fired RIGHT: DESTROYED base of B at (13, 1), player B is out | The wall at (12, 1) is gone, and base 'b' at (13, 1) is exactly 6 cells away on my row, so
+r10 D  sonnet #3 [3.7s] FIRE  | D fired UP from (13, 7): shell fell short at (13,1) | Column 13 is clear and base b is exactly 6 cells ahead, so this shot destroys it.
+r10 B  sonnet #4 [9.4s] STAY  |  | (no tank: hit before this move was applied)
+r11 C   haiku #1 [2.6s] RIGHT | C moved RIGHT to (10, 12) | I move to (10, 12), which is empty, to keep advancing toward the enemy base at (13, 13).
+r11 A   haiku #2 [4.8s] RIGHT | A moved RIGHT to (8, 1) | Base 'b' is gone, so I need to move toward the remaining enemy bases 'c' and 'd', starting
+r11 D  sonnet #3 [5.9s] DOWN  | D moved DOWN to (13, 8) | C is racing along row 12 toward the opened gap above my base, so I must return and guard b
+r12 C   haiku #1 [2.4s] RIGHT | C moved RIGHT to (11, 12) | I move to (11, 12), which is empty, to keep closing in on the enemy base at (13, 13).
+r12 A   haiku #2 [3.8s] RIGHT | A moved RIGHT to (9, 1) | I want to reach the open column 13 and head down toward base 'd' at (13, 13), so I keep mo
+r12 D  sonnet #3 [4.7s] DOWN  | D moved DOWN to (13, 9) | I am already facing down column 13, so I can shoot C if it enters the gap above my base.
+r13 C   haiku #1 [2.9s] RIGHT | C moved RIGHT to (12, 12) | I move to (12, 12), which is empty, to get next to the open cell at (13, 12) and the enemy
+r13 D  sonnet #2 [4.1s] DOWN  | D moved DOWN to (13, 10) | I keep closing on the gap above my base so I can shoot C when it steps into column 13.
+r13 A   haiku #3 [4.1s] RIGHT | A moved RIGHT to (10, 1) | I keep moving east along row 1 to reach column 13, which lets me attack D and then base 'd
+r14 A   haiku #1 [2.6s] RIGHT | A moved RIGHT to (11, 1) | I keep advancing east along row 1 so I can reach column 13 and then move south toward base
+r14 C   haiku #2 [3.2s] RIGHT | C moved RIGHT to (13, 12) | I move to (13, 12), which is empty and sits directly above the enemy base, so I can turn D
+r14 D  sonnet #3 [7.6s] DOWN  | D moved DOWN to (13, 11) | Firing down now could hit my own base if C is not yet in the gap, so I step to (13,11) and
+r15 D  sonnet #1 [3.0s] FIRE  | D fired DOWN: HIT tank C at (13, 12), C has 2 lives, respawned at (2, 12) | C is right below me at (13,12), so my shell hits it before it can reach my base.
+r15 A   haiku #2 [3.4s] RIGHT | A moved RIGHT to (12, 1) | I need to reach column 13 so I can fire down at D and C, and the quickest route there is e
+r15 C   haiku #3 [3.9s] DOWN  | C turned DOWN at (2, 12) (blocked) | The enemy base at (13, 13) is directly below me, so turning DOWN makes me face it, and the
+r16 C   haiku #1 [3.0s] RIGHT | C moved RIGHT to (3, 12) | I respawned at (2, 12), and the row to the right is empty, so I start the long trip back t
+r16 A   haiku #2 [4.3s] RIGHT | A moved RIGHT to (13, 1) | I'm at (12, 1), and moving to (13, 1) puts me in open column 13, the route south toward D 
+r16 D  sonnet #3 [14.5s] DOWN  | D moved DOWN to (13, 12) | I step to (13,12) to plug the gap above my base and then head along row 12 to attack base 
+r17 C   haiku #1 [3.3s] RIGHT | C moved RIGHT to (4, 12) | I move to (4, 12), which is empty, to get within shell range of the enemy tank D at (13, 1
+r17 A   haiku #2 [3.4s] DOWN  | A moved DOWN to (13, 2) | I need to face DOWN and move south along open column 13 to get within shell range of D at 
+r17 D  sonnet #3 [5.8s] LEFT  | D moved LEFT to (12, 12) | I turn to face C along row 12 to shoot it as it approaches, while A is still too far to hi
+r18 A   haiku #1 [3.4s] DOWN  | A moved DOWN to (13, 3) | D has moved off column 13, so the path down to base 'd' at (13, 13) is open, and I need to
+r18 C   haiku #2 [3.9s] RIGHT | C moved RIGHT to (5, 12) | I move to (5, 12), which is empty, and stay 7 cells from tank D so its shells cannot reach
+r18 D  sonnet #3 [5.5s] STAY  | D stayed at (12, 12) | C is 8 cells away, out of shell range, so I wait for it to enter my range while facing it.
+r19 A   haiku #1 [2.7s] DOWN  | A moved DOWN to (13, 4) | Column 13 is still open below me, so I keep moving south toward row 7, where base 'd' come
+r19 C   haiku #2 [2.8s] STAY  | C stayed at (5, 12) | Tank D is 7 cells away at (12, 12), so my shell cannot reach it, and moving closer would p
+r19 D  sonnet #3 [3.9s] STAY  | D stayed at (12, 12) | C is 7 cells away, one step outside my range, so I hold and let it come into my line of fi
+r20 A   haiku #1 [2.6s] DOWN  | A moved DOWN to (13, 5) | Column 13 is still clear, so I keep moving south toward row 7, where base 'd' falls within
+r20 C   haiku #2 [3.2s] STAY  | C stayed at (5, 12) | Tank D is still 7 cells away at (12, 12), and any step closer would put me inside its firi
+r20 D  sonnet #3 [4.5s] RIGHT | D moved RIGHT to (13, 12) | I move into column 13 above my base so A's shells hit me and not the base, then I can face
+r21 C   haiku #1 [2.3s] RIGHT | C moved RIGHT to (6, 12) | I move to (6, 12), which is empty and keeps tank D 7 cells away at (13, 12), outside its s
+r21 D  sonnet #2 [4.0s] UP    | D moved UP to (13, 11) | I turn to face A in column 13 and step to (13,11), staying between A and my base.
+r21 A   haiku #3 [4.2s] DOWN  | A moved DOWN to (13, 6) | D is now at (13, 12) in my column, so moving to (13, 6) puts it within my 6-cell shell ran
+r22 A   haiku #1 [2.7s] FIRE  | A fired DOWN: HIT tank D at (13, 11), D has 2 lives, respawned at (12, 12) | I'm facing DOWN in column 13, and D at (13, 11) is 5 cells away with nothing blocking the 
+r22 C   haiku #2 [2.8s] RIGHT | C moved RIGHT to (7, 12) | I move to (7, 12), which is empty, to keep closing in while tank D sits off my row at (13,
+r22 D  sonnet #3 [3.1s] FIRE  | D fired LEFT: HIT tank C at (7, 12), C has 1 lives, respawned at (2, 12) | A is 5 cells ahead in my column and I am facing it, so my shell hits it first.
+r23 A   haiku #1 [3.1s] DOWN  | A moved DOWN to (13, 7) | Column 13 is clear down to base 'd' at (13, 13), and moving to (13, 7) puts that base exac
+r23 C   haiku #2 [3.8s] RIGHT | C moved RIGHT to (3, 12) | I have only 1 life, so I move to (3, 12), which keeps tank D 9 cells away at (12, 12), wel
+r23 D  sonnet #3 [5.4s] RIGHT | D moved RIGHT to (13, 12) | A is in column 13 and one step from range of my base, so I plug (13,12) to take its shells
+r24 A   haiku #1 [3.1s] FIRE  | A fired DOWN: HIT tank D at (13, 12), D has 1 lives, respawned at (12, 12) | D is at (13, 12) in my column, five cells below me, and I am already facing DOWN with a cl
+r24 C   haiku #2 [3.1s] RIGHT | C moved RIGHT to (4, 12) | I move to (4, 12), which is empty and keeps tank D 9 cells away at (13, 12), outside its s
+r24 D  sonnet #3 [6.9s] UP    | D moved UP to (12, 11) | I turn to face A while still blocking column 13, so I can shoot back next turn.
+r25 C   haiku #1 [3.4s] RIGHT | C moved RIGHT to (5, 12) | I move to (5, 12), which is empty, and tank D at (12, 11) is off my row, so it cannot hit 
+r25 A   haiku #2 [3.5s] FIRE  | A fired DOWN: DESTROYED base of D at (13, 13), player D is out | I'm facing DOWN in column 13, and base 'd' at (13, 13) is exactly 6 cells away with nothin
+r25 D  sonnet #3 [8.4s] STAY  |  | (no tank: hit before this move was applied)
+r26 C   haiku #1 [6.2s] LEFT  | C moved LEFT to (4, 12) | Only bases 'a' and 'c' are left, so destroying base 'a' at (1, 1) wins, and I start the ro
+r26 A   haiku #2 [7.4s] DOWN  | A moved DOWN to (13, 8) | Base 'd' is gone, so base 'c' at (1, 13) is the last enemy base, and I need to move down c
+r27 C   haiku #1 [2.4s] LEFT  | C moved LEFT to (3, 12) | I move to (3, 12), which is empty, to keep heading west toward column 1 and the route up t
+r27 A   haiku #2 [2.6s] DOWN  | A moved DOWN to (13, 9) | Column 13 is clear, so I keep moving south toward row 12, where I can turn west toward bas
+r28 C   haiku #1 [2.7s] LEFT  | C moved LEFT to (2, 12) | I move to (2, 12), which is empty, to continue toward the column that leads north to base 
+r28 A   haiku #2 [2.9s] DOWN  | A moved DOWN to (13, 10) | Column 13 is still clear, so I keep moving south to row 12, which gets me into the open ro
+r29 C   haiku #1 [2.5s] UP    | C moved UP to (2, 11) | I move to (2, 11), which is empty, to start the climb north toward row 3 and base 'a'.
+r29 A   haiku #2 [3.3s] DOWN  | A moved DOWN to (13, 11) | I'm at (13, 10) and need to reach row 12, where I can turn west toward C and base 'c'.
+r30 A   haiku #1 [3.2s] DOWN  | A moved DOWN to (13, 12) | Row 12 is open from (2, 12) to (13, 12), so I move down to row 12 and then turn west towar
+r30 C   haiku #2 [3.7s] LEFT  | C moved LEFT to (1, 11) | The cell above me at (2, 10) leads only to a brick at (2, 9), so I move to (1, 11), which 
+r31 C   haiku #1 [2.6s] UP    | C moved UP to (1, 10) | I move to (1, 10), which is empty, to climb column 1 toward base 'a' at (1, 1).
+r31 A   haiku #2 [3.8s] LEFT  | A moved LEFT to (12, 12) | I'm at (13, 12), and moving west along the open row 12 brings me closer to base 'c' at (1,
+r32 A   haiku #1 [2.6s] LEFT  | A moved LEFT to (11, 12) | Row 12 is open to the west, and I need to get to (3, 13) to shoot the walls around base 'c
+r32 C   haiku #2 [2.8s] UP    | C moved UP to (1, 9) | I move to (1, 9), which is empty, to keep climbing column 1 toward base 'a', and I stay of
+r33 C   haiku #1 [2.5s] UP    | C moved UP to (1, 8) | I move to (1, 8), which is empty, to keep climbing column 1 toward base 'a', away from tan
+r33 A   haiku #2 [2.7s] LEFT  | A moved LEFT to (10, 12) | Row 12 is still open to the west, so I keep moving toward (3, 12) to get in position for t
+r34 A   haiku #1 [2.8s] LEFT  | A moved LEFT to (9, 12) | C is moving north away from base 'c', so I keep heading west along row 12 to reach (3, 12)
+r34 C   haiku #2 [3.0s] UP    | C moved UP to (1, 7) | I move to (1, 7), which is empty, to keep climbing column 1 toward base 'a', out of tank A
+r35 A   haiku #1 [2.8s] LEFT  | A moved LEFT to (8, 12) | C keeps moving north, away from base 'c', so I continue west along row 12 toward (3, 12) t
+r35 C   haiku #2 [2.8s] UP    | C moved UP to (1, 6) | I move to (1, 6), which is empty, to keep climbing column 1 toward base 'a' while tank A s
+r36 C   haiku #1 [2.5s] UP    | C moved UP to (1, 5) | I move to (1, 5), which is empty, to keep climbing column 1 toward base 'a' at (1, 1), whi
+r36 A   haiku #2 [3.1s] LEFT  | A moved LEFT to (7, 12) | C is moving away north, so I continue west along row 12 toward (3, 12), where I can reach 
+r37 C   haiku #1 [2.6s] UP    | C moved UP to (1, 4) | I move to (1, 4), which is empty, to get within range of the brick at (1, 2) that guards b
+r37 A   haiku #2 [2.8s] LEFT  | A moved LEFT to (6, 12) | C is still moving north, away from base 'c', so I keep heading west along row 12 toward (3
+r38 A   haiku #1 [2.8s] LEFT  | A moved LEFT to (5, 12) | C keeps moving north, so I continue west along row 12 toward (3, 12) to reach the walls ar
+r38 C   haiku #2 [2.9s] UP    | C moved UP to (1, 3) | I move to (1, 3), which is empty, so I am right under the brick at (1, 2) and can fire at 
+r39 C   haiku #1 [2.6s] FIRE  | C fired UP from (1, 3): destroyed brick at (1,2) | I face UP at (1, 3), and the brick at (1, 2) is the first thing in line, so this shell sho
+r39 A   haiku #2 [3.5s] LEFT  | A moved LEFT to (4, 12) | C is heading north toward my own base 'a', but I can't reach it in time, so I race to dest
+r40 A   haiku #1 [2.8s] LEFT  | A moved LEFT to (3, 12) | C has cleared the wall at (1, 2) and can now shoot base 'a', so I can't stop that shot and
+r40 C   haiku #2 [2.9s] FIRE  | C fired UP: DESTROYED base of A at (1, 1), player A is out | The brick at (1, 2) is gone, so this shell flies up through the empty cell and hits base '

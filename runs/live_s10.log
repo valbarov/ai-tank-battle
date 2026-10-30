@@ -1,0 +1,91 @@
+viewer: http://127.0.0.1:8765/viewer.html
+r01 A   haiku #1   [5.6s] STAY  | A stayed at (2, 2) | Steel at (7,2) blocks row 2, and steel at (2,7) blocks column 2, so my tank is s
+r01 B  sonnet #2   [5.7s] DOWN  | B moved DOWN to (12, 3) | Move out of the corner and head down column 11 toward base d, staying out of row
+r01 C    opus #3   [8.4s] UP    | C moved UP to (2, 11) | Steel at (7,12) blocks D's shots along my row, so I take the open row 11 east to
+r01 D   fable #4  [14.1s] UP    | D moved UP to (12, 11) | Move up column 12 toward (13,3) to break the brick at (13,2) and shoot B's base,
+r02 B  sonnet #1   [plan] LEFT  | B moved LEFT to (11, 3) | Move out of the corner and head down column 11 toward base d, staying out of row
+r02 C    opus #2   [plan] RIGHT | C moved RIGHT to (3, 11) | Steel at (7,12) blocks D's shots along my row, so I take the open row 11 east to
+r02 D   fable #3   [plan] UP    | D moved UP to (12, 10) | Move up column 12 toward (13,3) to break the brick at (13,2) and shoot B's base,
+r02 A   haiku #4   [4.5s] DOWN  | A moved DOWN to (2, 3) | Row 3 is empty and B sits at (11, 3), so I move into row 3 and fire along it at 
+r03 C    opus #1   [plan] RIGHT | C moved RIGHT to (4, 11) | Steel at (7,12) blocks D's shots along my row, so I take the open row 11 east to
+r03 D   fable #2   [plan] UP    | D moved UP to (12, 9) | Move up column 12 toward (13,3) to break the brick at (13,2) and shoot B's base,
+r03 B  sonnet #3   [4.0s] DOWN  | B moved DOWN to (11, 4) | Leave row 3 so A cannot shoot me along it, and keep heading down column 11 towar
+r03 A   haiku #4   [4.5s] RIGHT | A moved RIGHT to (3, 3) | B is in my row 3 with a clear line, so I step right to face it and fire next rou
+r04 A   haiku #1   [plan] FIRE  | A fired RIGHT from (3, 3): shell left the board | B is in my row 3 with a clear line, so I step right to face it and fire next rou
+r04 B  sonnet #2   [plan] DOWN  | B moved DOWN to (11, 5) | Leave row 3 so A cannot shoot me along it, and keep heading down column 11 towar
+r04 C    opus #3   [plan] RIGHT | C moved RIGHT to (5, 11) | Steel at (7,12) blocks D's shots along my row, so I take the open row 11 east to
+r04 D   fable #4   [plan] UP    | D moved UP to (12, 8) | Move up column 12 toward (13,3) to break the brick at (13,2) and shoot B's base,
+r05 B  sonnet #1   [plan] DOWN  | B moved DOWN to (11, 6) | Leave row 3 so A cannot shoot me along it, and keep heading down column 11 towar
+r05 C    opus #2   [plan] RIGHT | C moved RIGHT to (6, 11) | Steel at (7,12) blocks D's shots along my row, so I take the open row 11 east to
+r05 D   fable #3   [plan] UP    | D turned UP at (12, 8) (blocked) | Move up column 12 toward (13,3) to break the brick at (13,2) and shoot B's base,
+r05 A   haiku #4   [6.3s] RIGHT | A moved RIGHT to (4, 3) | Row 3 is open to x=11, which gets me toward enemy base b at (13, 1) by way of (1
+r06 A   haiku #1   [plan] RIGHT | A moved RIGHT to (5, 3) | Row 3 is open to x=11, which gets me toward enemy base b at (13, 1) by way of (1
+r06 C    opus #2   [plan] RIGHT | C moved RIGHT to (7, 11) | Steel at (7,12) blocks D's shots along my row, so I take the open row 11 east to
+r06 B  sonnet #3   [4.9s] DOWN  | B moved DOWN to (11, 7) | Keep advancing down column 11 and look for a shot at D, who is stuck below the s
+r06 D   fable #4  [18.3s] DOWN  | D moved DOWN to (12, 9) | Steel at (12,7) blocks my path, so I fall back down column 12 to row 11 to inter
+r07 A   haiku #1   [plan] RIGHT | A moved RIGHT to (6, 3) | Row 3 is open to x=11, which gets me toward enemy base b at (13, 1) by way of (1
+r07 B  sonnet #2   [plan] DOWN  | B moved DOWN to (11, 8) | Keep advancing down column 11 and look for a shot at D, who is stuck below the s
+r07 C    opus #3   [plan] RIGHT | C moved RIGHT to (8, 11) | Steel at (7,12) blocks D's shots along my row, so I take the open row 11 east to
+r07 D   fable #4   [plan] DOWN  | D moved DOWN to (12, 10) | Steel at (12,7) blocks my path, so I fall back down column 12 to row 11 to inter
+r08 A   haiku #1   [plan] RIGHT | A moved RIGHT to (7, 3) | Row 3 is open to x=11, which gets me toward enemy base b at (13, 1) by way of (1
+r08 C    opus #2   [plan] RIGHT | C moved RIGHT to (9, 11) | Steel at (7,12) blocks D's shots along my row, so I take the open row 11 east to
+r08 D   fable #3   [plan] DOWN  | D moved DOWN to (12, 11) | Steel at (12,7) blocks my path, so I fall back down column 12 to row 11 to inter
+r08 B  sonnet #4   [5.1s] DOWN  | B moved DOWN to (11, 9) | Reach the protected nook at (11,13), from where I can shoot through the brick at
+r09 A   haiku #1   [plan] RIGHT | A moved RIGHT to (8, 3) | Row 3 is open to x=11, which gets me toward enemy base b at (13, 1) by way of (1
+r09 B  sonnet #2   [plan] DOWN  | B moved DOWN to (11, 10) | Reach the protected nook at (11,13), from where I can shoot through the brick at
+r09 C    opus #3   [4.2s] FIRE  | C fired RIGHT: HIT tank D at (12, 11), D has 2 lives, respawned at (12, 12) | D is in my row at (12,11) with a clear path, and I already face right, so I shoo
+r09 D   fable #4   [5.6s] RIGHT | D turned RIGHT at (12, 12) (blocked) | Moving RIGHT to (13,11) gets me out of column 11 under B, then turning LEFT (int
+r10 C    opus #1   [plan] FIRE  | C fired RIGHT from (9, 11): shell left the board | D is in my row at (12,11) with a clear path, and I already face right, so I shoo
+r10 A   haiku #2   [3.8s] RIGHT | A moved RIGHT to (9, 3) | Row 3 and columns 11 at rows 2 and 1 are open, so I move to (11, 1) to get in po
+r10 B  sonnet #3   [5.3s] DOWN  | B moved DOWN to (11, 11) | Cross row 11 quickly, then take the safe nook at (11,13) to shoot at base d.
+r10 D   fable #4  [13.8s] STAY  | D stayed at (12, 12) | Row 11 is covered by C's gun, so I hold at (12,12) next to my base and react whe
+r11 D   fable #1   [plan] STAY  | D stayed at (12, 12) | Row 11 is covered by C's gun, so I hold at (12,12) next to my base and react whe
+r11 B  sonnet #2   [2.7s] DOWN  | B moved DOWN to (11, 12) | Leave row 11 now, reach the nook at (11,13), then shoot the brick next to base d
+r11 A   haiku #3   [3.1s] RIGHT | A moved RIGHT to (10, 3) | The route to (11, 1) is still open, and B faces DOWN so it cannot shoot up colum
+r11 C    opus #4   [4.3s] FIRE  | C fired RIGHT from (9, 11): shell left the board | B is in my row at (11,11) with nothing in between, and I already face right, so 
+r12 A   haiku #1   [plan] RIGHT | A moved RIGHT to (11, 3) | The route to (11, 1) is still open, and B faces DOWN so it cannot shoot up colum
+r12 B  sonnet #2   [3.1s] RIGHT | B turned RIGHT at (11, 12) (blocked) | D is next to me and facing away, so I turn and shoot it first.
+r12 C    opus #3   [6.4s] RIGHT | C moved RIGHT to (10, 11) | I move above B at (11,12), turn down and shoot it before it can break into D's b
+r12 D   fable #4  [14.4s] LEFT  | D turned LEFT at (12, 12) (blocked) | B is heading to (11,13) to shoot my base through the brick at (12,13); I follow 
+r13 C    opus #1   [plan] RIGHT | C moved RIGHT to (11, 11) | I move above B at (11,12), turn down and shoot it before it can break into D's b
+r13 B  sonnet #2   [2.8s] FIRE  | B fired RIGHT: HIT tank D at (12, 12), D has 1 lives, respawned at (13, 11) | D is adjacent and facing me, so I shoot it now before it hits me.
+r13 D   fable #3   [2.9s] FIRE  | D fired LEFT: HIT tank C at (11, 11), C has 2 lives, respawned at (2, 12) | B is adjacent at (11,12) and facing me, so I shoot first.
+r13 A   haiku #4   [3.4s] UP    | A moved UP to (11, 2) | I reach (11, 1), turn to the brick at (12, 1), break it, then fire again to dest
+r14 A   haiku #1   [2.6s] UP    | A moved UP to (11, 1) | (11, 1) is empty, so I step up, turn to the brick at (12, 1), break it, then fir
+r14 C    opus #2   [5.5s] RIGHT | C moved RIGHT to (3, 12) | Column 3 is open to row 1, so I go north to (3,1) to shoot left through the bric
+r14 B  sonnet #3   [6.0s] DOWN  | B moved DOWN to (11, 13) | Move into the nook at (11,13), then shoot through the brick at (12,13) to destro
+r14 D   fable #4  [11.2s] STAY  | D stayed at (13, 11) | I am guarding the only open approach above my base and already face LEFT along t
+r15 A   haiku #1   [plan] RIGHT | A turned RIGHT at (11, 1) (blocked) | (11, 1) is empty, so I step up, turn to the brick at (12, 1), break it, then fir
+r15 B  sonnet #2   [plan] RIGHT | B turned RIGHT at (11, 13) (blocked) | Move into the nook at (11,13), then shoot through the brick at (12,13) to destro
+r15 C    opus #3   [plan] UP    | C moved UP to (3, 11) | Column 3 is open to row 1, so I go north to (3,1) to shoot left through the bric
+r15 D   fable #4   [plan] STAY  | D stayed at (13, 11) | I am guarding the only open approach above my base and already face LEFT along t
+r16 A   haiku #1   [2.7s] FIRE  | A fired RIGHT from (11, 1): destroyed brick at (12,1) | I am already facing the brick at (12, 1), so the first shot breaks it and the se
+r16 B  sonnet #2   [4.7s] FIRE  | B fired RIGHT from (11, 13): destroyed brick at (12,13) | A is about to shoot my base, so I race to break the brick and destroy base d fir
+r16 C    opus #3   [5.3s] UP    | C moved UP to (3, 10) | D faces me along row 11, so I step out of the row at once and keep going north t
+r16 D   fable #4   [8.3s] LEFT  | D moved LEFT to (12, 11) | B is about to shoot through (12,13) into my base; my only chance is to rush to (
+r17 C    opus #1   [plan] UP    | C moved UP to (3, 9) | D faces me along row 11, so I step out of the row at once and keep going north t
+r17 D   fable #2   [plan] LEFT  | D moved LEFT to (11, 11) | B is about to shoot through (12,13) into my base; my only chance is to rush to (
+r17 B  sonnet #3   [2.9s] FIRE  | B fired RIGHT: DESTROYED base of D at (13, 13), player D is out | The brick is gone, so this shot hits base d directly.
+r17 A   haiku #4   [3.0s] FIRE  | A fired RIGHT: DESTROYED base of B at (13, 1), player B is out | The brick at (12, 1) is gone, so my shell now has a clear line to base b at (13,
+r18 C    opus #1   [4.9s] UP    | C moved UP to (3, 8) | Only A and I remain, so I rush up column 3 to (3,1) to break into A's base befor
+r18 A   haiku #2   [8.4s] DOWN  | A moved DOWN to (11, 2) | Bases b and d are both gone, so only my base a and enemy base c remain, and base
+r19 A   haiku #1   [plan] DOWN  | A moved DOWN to (11, 3) | Bases b and d are both gone, so only my base a and enemy base c remain, and base
+r19 C    opus #2   [plan] UP    | C moved UP to (3, 7) | Only A and I remain, so I rush up column 3 to (3,1) to break into A's base befor
+r20 A   haiku #1   [plan] DOWN  | A moved DOWN to (11, 4) | Bases b and d are both gone, so only my base a and enemy base c remain, and base
+r20 C    opus #2   [plan] UP    | C moved UP to (3, 6) | Only A and I remain, so I rush up column 3 to (3,1) to break into A's base befor
+r21 A   haiku #1   [plan] DOWN  | A moved DOWN to (11, 5) | Bases b and d are both gone, so only my base a and enemy base c remain, and base
+r21 C    opus #2   [plan] UP    | C moved UP to (3, 5) | Only A and I remain, so I rush up column 3 to (3,1) to break into A's base befor
+r22 A   haiku #1   [4.3s] LEFT  | A moved LEFT to (10, 5) | C sits in my row 5 with a clear line, so I step left to face it and fire before 
+r22 C    opus #2   [5.4s] UP    | C moved UP to (3, 4) | A faces down and is far from my base, so I finish the climb to (3,1) and shoot l
+r23 A   haiku #1   [plan] FIRE  | A fired LEFT from (10, 5): shell left the board | C sits in my row 5 with a clear line, so I step left to face it and fire before 
+r23 C    opus #2   [plan] UP    | C moved UP to (3, 3) | A faces down and is far from my base, so I finish the climb to (3,1) and shoot l
+r24 C    opus #1   [plan] UP    | C moved UP to (3, 2) | A faces down and is far from my base, so I finish the climb to (3,1) and shoot l
+r24 A   haiku #2   [9.0s] LEFT  | A moved LEFT to (9, 5) | C is heading toward my base a, so I move along the open row 5 to column 3 and th
+r25 A   haiku #1   [plan] LEFT  | A moved LEFT to (8, 5) | C is heading toward my base a, so I move along the open row 5 to column 3 and th
+r25 C    opus #2   [plan] UP    | C moved UP to (3, 1) | A faces down and is far from my base, so I finish the climb to (3,1) and shoot l
+r26 A   haiku #1   [plan] LEFT  | A moved LEFT to (7, 5) | C is heading toward my base a, so I move along the open row 5 to column 3 and th
+r26 C    opus #2   [plan] LEFT  | C turned LEFT at (3, 1) (blocked) | A faces down and is far from my base, so I finish the climb to (3,1) and shoot l
+r27 A   haiku #1   [plan] LEFT  | A moved LEFT to (6, 5) | C is heading toward my base a, so I move along the open row 5 to column 3 and th
+r27 C    opus #2   [3.2s] FIRE  | C fired LEFT from (3, 1): destroyed brick at (2,1) | I face left at (3,1), so one shot breaks the brick at (2,1) and the next destroy
+r28 A   haiku #1   [plan] LEFT  | A moved LEFT to (5, 5) | C is heading toward my base a, so I move along the open row 5 to column 3 and th
+r28 C    opus #2   [plan] FIRE  | C fired LEFT: DESTROYED base of A at (1, 1), player A is out | I face left at (3,1), so one shot breaks the brick at (2,1) and the next destroy

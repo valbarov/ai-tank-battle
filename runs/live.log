@@ -1,0 +1,48 @@
+viewer: http://127.0.0.1:8765/viewer.html
+r01 C    opus #1 [4.8s] RIGHT | C moved RIGHT to (3, 12) | Nobody can hit me yet, so I move out to get space while I stay close to my base.
+r01 B  sonnet #2 [5.2s] DOWN  | B moved DOWN to (12, 3) | I move out of my corner toward the centre, and the brick at (12,5) still shields me from D
+r01 A   haiku #3 [6.6s] DOWN  | A moved DOWN to (2, 3) | Moving to (2, 3) keeps our tank out of B's line of fire on row 2, and the brick at (5, 2) 
+r01 D   fable #4 [7.2s] UP    | D moved UP to (12, 11) | Move to (12,11) to leave the corner, stay between B's column and my base, and prepare to c
+r02 A   haiku #1 [3.4s] STAY  | A stayed at (2, 3) | Walls at (3, 3) and (11, 3) block B's row, and (3, 11) blocks C's column, so our tank is s
+r02 B  sonnet #2 [4.4s] DOWN  | B moved DOWN to (12, 4) | I keep moving toward the centre, and the bricks at (12,5) and (12,9) still block D's shots
+r02 C    opus #3 [4.4s] DOWN  | C moved DOWN to (3, 13) | Row 13 is open toward D's base, so I move onto it to start an attack.
+r02 D   fable #4 [8.3s] RIGHT | D moved RIGHT to (13, 11) | Step to (13,11) to leave B's column 12 line of fire while staying directly above my base t
+r03 A   haiku #1 [3.8s] STAY  | A stayed at (2, 3) | No enemy tank shares a row or column with us, and the walls at (3, 3) and (2, 5) still shi
+r03 C    opus #2 [4.5s] RIGHT | C moved RIGHT to (4, 13) | I move along open row 13 toward D's base to get it within shell range.
+r03 B  sonnet #3 [5.1s] RIGHT | B moved RIGHT to (13, 4) | I move to column 13 to line up on D and on the brick that guards D's base.
+r03 D   fable #4 [8.1s] UP    | D moved UP to (13, 10) | Face up column 13, which is open, so I can fire if B enters my lane; (13,10) is empty so I
+r04 A   haiku #1 [2.3s] STAY  | A stayed at (2, 3) | No enemy tank shares a row or column with us, and the walls around our tank still block ev
+r04 C    opus #2 [3.3s] RIGHT | C moved RIGHT to (5, 13) | D has left its base, so I keep moving along row 13 to get its base within range.
+r04 B  sonnet #3 [4.4s] LEFT  | B moved LEFT to (12, 4) | D faces up my column and is in shell range, so I step out of the line.
+r04 D   fable #4 [6.2s] FIRE  | D fired UP from (13, 10): shell fell short at (13,4) | B at (13,4) is exactly 6 cells up an open column and faces sideways, so I can hit it befor
+r05 A   haiku #1 [2.6s] STAY  | A stayed at (2, 3) | No enemy tank lines up with us, and our walls still block every line of fire, so waiting i
+r05 C    opus #2 [3.7s] RIGHT | C moved RIGHT to (6, 13) | One more step puts the brick in front of D's base within my shell range.
+r05 B  sonnet #3 [4.3s] STAY  | B stayed at (12, 4) | D wastes shells down the column, so I wait out of its line and strike when it comes closer
+r05 D   fable #4 [7.6s] DOWN  | D moved DOWN to (13, 11) | Move to (13,11) toward my base to intercept C, who is advancing along row 13 toward the br
+r06 A   haiku #1 [2.4s] STAY  | A stayed at (2, 3) | No enemy tank shares a row or column with us, and our walls still block every line of fire
+r06 C    opus #2 [3.2s] FIRE  | C fired RIGHT from (6, 13): destroyed brick at (12,13) | My shell can reach the brick at (12,13) that guards D's base, so I break it open.
+r06 B  sonnet #3 [4.0s] RIGHT | B moved RIGHT to (13, 4) | D faces away, so I take column 13 to close the distance for a shot.
+r06 D   fable #4 [7.8s] LEFT  | D moved LEFT to (12, 11) | Move to (12,11) to start toward row 13, so I can face C and protect the brick at (12,13) t
+r07 A   haiku #1 [3.3s] STAY  | A stayed at (2, 3) | No enemy tank lines up with us, and our walls still block every line of fire, so waiting k
+r07 C    opus #2 [3.4s] RIGHT | C moved RIGHT to (7, 13) | D's base is 7 cells away, so one step puts it within my shell range.
+r07 B  sonnet #3 [5.0s] DOWN  | B moved DOWN to (13, 5) | D has left column 13, so I advance down it to pressure D's side while C attacks D's base.
+r07 D   fable #4 [8.9s] DOWN  | D moved DOWN to (12, 12) | Move to (12,12) so next turn I can step onto (12,13) and block C's open line along row 13 
+r08 A   haiku #1 [2.7s] STAY  | A stayed at (2, 3) | No enemy tank shares a row or column with our tank, and our walls still block every line o
+r08 B  sonnet #2 [3.6s] DOWN  | B moved DOWN to (13, 6) | I keep closing in on column 13 to get D and its base in range.
+r08 C    opus #3 [3.9s] FIRE  | C fired RIGHT: DESTROYED base of D at (13, 13), player D is out | D's base is exactly 6 cells away on a clear row, so my shell can destroy it now.
+r08 D   fable #4 [6.6s] STAY  |  | (no tank: hit before this move was applied)
+r09 A   haiku #1 [2.8s] STAY  | A stayed at (2, 3) | No live enemy tank lines up with us, and our walls still block every line of fire, so we k
+r09 B  sonnet #2 [3.9s] DOWN  | B moved DOWN to (13, 7) | D is out, so I advance toward C to score hits while staying out of its lines.
+r09 C    opus #3 [6.2s] LEFT  | C moved LEFT to (6, 13) | D is out, so I head back toward my base to guard it against B and A.
+r10 A   haiku #1 [2.4s] STAY  | A stayed at (2, 3) | No live enemy tank shares a row or column with us, and our walls still block every line of
+r10 C    opus #2 [3.0s] LEFT  | C moved LEFT to (5, 13) | I keep moving back toward my base so I can defend it from B, who is coming down the right 
+r10 B  sonnet #3 [3.8s] DOWN  | B moved DOWN to (13, 8) | I keep moving toward row 13, where I can shoot along the open lane at C.
+r11 A   haiku #1 [2.4s] STAY  | A stayed at (2, 3) | No live enemy tank shares a row or column with us, and our walls still block every line of
+r11 B  sonnet #2 [2.5s] DOWN  | B moved DOWN to (13, 9) | I continue toward row 13 to get a firing lane on C.
+r11 C    opus #3 [4.5s] RIGHT | C moved RIGHT to (6, 13) | B will likely come along row 13, so I turn to face it while I stay in front of my base.
+r12 A   haiku #1 [2.4s] STAY  | A stayed at (2, 3) | No live enemy tank shares a row or column with us, and our walls still block every line of
+r12 C    opus #2 [3.0s] STAY  | C stayed at (6, 13) | I face right on row 13 and wait for B to enter my firing line, without leaving my base sid
+r12 B  sonnet #3 [3.0s] DOWN  | B moved DOWN to (13, 10) | I stay in column 13, where the brick at (13,12) shields me from C's row 13 lane.
+r13 A   haiku #1 [2.2s] STAY  | A stayed at (2, 3) | No live enemy tank shares a row or column with us, and our walls still block every line of
+r13 C    opus #2 [3.0s] STAY  | C stayed at (6, 13) | B is still out of my line, so I hold my position facing right and wait for it to enter row
+r13 B  sonnet #3 [4.6s] DOWN  | B moved DOWN to (13, 11) | I move to (13,11), still shielded by the brick below, to prepare a safe approach.

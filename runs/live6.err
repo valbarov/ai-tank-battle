@@ -1,0 +1,9 @@
+Traceback (most recent call last):
+  File "arena.py", line 539, in <module>
+    main()
+  File "arena.py", line 481, in main
+    run_plan(pid, order)
+  File "arena.py", line 443, in run_plan
+    action = p["plan"].pop(0)
+             ^^^^^^^^^^^^^^^^
+IndexError: pop from empty list
