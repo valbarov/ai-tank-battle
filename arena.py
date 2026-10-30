@@ -30,6 +30,8 @@ HERE = Path(__file__).resolve().parent
 W = H = 15
 WALL = 3          # length of each steel wall from the edge toward the centre
 EXTRA_BRICKS = 5  # random brick positions per quadrant, mirrored 4 ways
+FOG = None        # None = full information; N = enemy tanks visible within N cells of your tank or base
+MAZE = False      # True = brick maze with steel posts instead of the open field
 LIVES = 3
 PLAN_MAX = 8
 IDS = ["A", "B", "C", "D"]
@@ -38,6 +40,16 @@ ACTIONS = ["UP", "DOWN", "LEFT", "RIGHT", "FIRE", "STAY"]
 BASE_POS = {"A": (1, 1), "B": (13, 1), "C": (1, 13), "D": (13, 13)}
 SPAWN_POS = {"A": (2, 2), "B": (12, 2), "C": (2, 12), "D": (12, 12)}
 START_FACE = {"A": "RIGHT", "B": "LEFT", "C": "RIGHT", "D": "LEFT"}
+
+
+def set_size(n):
+    """Square board of n cells (odd, >= 15). Bases stay in the corners, walls and bricks scale."""
+    global W, H, WALL, EXTRA_BRICKS, BASE_POS, SPAWN_POS
+    W = H = n
+    WALL = n // 5
+    EXTRA_BRICKS = round(5 * (n / 15) ** 2)
+    BASE_POS = {"A": (1, 1), "B": (n - 2, 1), "C": (1, n - 2), "D": (n - 2, n - 2)}
+    SPAWN_POS = {"A": (2, 2), "B": (n - 3, 2), "C": (2, n - 3), "D": (n - 3, n - 3)}
 
 RULES = """You are player {me}, a tank commander in a turn-based tank battle against three other players (A, B, C, D).
 The board is a {w}x{h} grid. Coordinates are (x,y): x is the column 0-{wm} left to right, y is the row 0-{hm} top to bottom. UP means y-1, DOWN y+1, LEFT x-1, RIGHT x+1.
@@ -48,18 +60,74 @@ Actions:
 - STAY: do nothing.
 Each tank has {lives} lives. A hit tank respawns immediately next to its own base. A player with zero lives has no tank any more, but their base is still on the board and can be destroyed.
 Goal: protect your base, destroy the other tanks and their bases. The game ends when at most one base is alive: the owner of that base wins. If more than one base is still alive after {rounds} rounds, nobody wins and all remaining players lose. Only destroying bases wins the game.
-{order_line} Decide your own tactics.
-You reply with a plan: a list of 1 to {plan_max} actions. They run one per round in the given order. You are asked again when the list runs out or when something notable happens (a tank or base was hit, a tank in your row or column fired, an enemy tank entered your row or column, or your move was blocked). Then you may send a new list, which replaces the rest of the old one.
+{order_line}{fog_line} Decide your own tactics.
+You reply with a plan: a list of 1 to {plan_max} actions. They run in the given order, {rate}. You are asked again when the list runs out or when something notable happens (a tank or base was hit, a tank in your row or column fired, an enemy tank entered your row or column, or your move was blocked). Then you may send a new list, which replaces the rest of the old one.
 Reply format, nothing else:
 ACTIONS: <one or more of UP DOWN LEFT RIGHT FIRE STAY, separated by spaces>
 WHY: <one sentence>"""
+FOG_LINE = " You see enemy tanks only when they are within {fog} cells of your tank or of your base. Walls, bricks and bases are always visible. Hits and destroyed bases are reported to everyone. For enemies out of sight you get the position where you last saw them."
 ORDER = {
     "sequential": "Players act in the order A, B, C, D, one action each per round.",
+    "moves": "Players act in the order A, B, C, D. On its turn a player performs {moves} actions in a row, then the next player acts.",
     "parallel": "All players act once per round. Planned actions run first; players who are asked for a new plan act in the order their replies arrive, the fastest reply first.",
 }
 
 
+def make_maze(seed):
+    """Brick maze with steel posts, mirrored four ways so it is fair. Passages are the odd cells,
+    walls the even ones. Bases stay in the corners; each base has one open side. A few extra
+    openings add loops. Tanks can also tunnel: one shot removes one brick."""
+    global SPAWN_POS
+    rng = random.Random(seed)
+    q = W // 4 + 1  # quadrant cells per axis, including the centre line (4 for 15)
+    mid = W // 2
+    while True:
+        g = _carve(rng, q)
+        for x, y in ((mid, 1), (1, mid), (mid, H - 2), (W - 2, mid)):
+            g[y][x] = "@"  # no straight shot along an edge from one base to the next
+        seen, todo = {BASE_POS["A"]}, [BASE_POS["A"]]
+        while todo:
+            x, y = todo.pop()
+            for dx, dy in DIRS.values():
+                nx, ny = x + dx, y + dy
+                if 0 <= nx < W and 0 <= ny < H and (nx, ny) not in seen and g[ny][nx] in ".abcd":
+                    seen.add((nx, ny))
+                    todo.append((nx, ny))
+        if all((x, y) in seen for y in range(H) for x in range(W) if g[y][x] in ".abcd"):
+            break
+    gap = (2, 1) if g[1][2] == "." else (1, 2)  # open side of base a; mirrored for the others
+    SPAWN_POS = {"A": gap, "B": (W - 1 - gap[0], gap[1]), "C": (gap[0], H - 1 - gap[1]), "D": (W - 1 - gap[0], H - 1 - gap[1])}
+    return g
+
+
+def _carve(rng, q):
+    carved, visited, stack = set(), {(0, 0)}, [(0, 0)]
+    while stack:  # recursive backtracker on the top-left quadrant
+        cx, cy = stack[-1]
+        nbrs = [(cx + dx, cy + dy) for dx, dy in ((1, 0), (-1, 0), (0, 1), (0, -1))
+                if 0 <= cx + dx < q and 0 <= cy + dy < q and (cx + dx, cy + dy) not in visited]
+        if not nbrs:
+            stack.pop()
+            continue
+        nx, ny = rng.choice(nbrs)
+        carved.add((cx + nx + 1, cy + ny + 1))  # grid cell between cell (2cx+1, 2cy+1) and (2nx+1, 2ny+1)
+        visited.add((nx, ny))
+        stack.append((nx, ny))
+    mid = W // 2
+    walls = [(x, y) for x in range(1, mid + 1) for y in range(1, mid + 1) if (x + y) % 2 == 1 and (x, y) not in carved]
+    carved |= set(rng.sample(walls, 2))  # loops
+    g = [["@" if x % 2 == 0 and y % 2 == 0 else "#" if (x % 2 == 0 or y % 2 == 0) else "." for x in range(W)] for y in range(H)]
+    for wx, wy in carved:
+        for px, py in {(wx, wy), (W - 1 - wx, wy), (wx, H - 1 - wy), (W - 1 - wx, H - 1 - wy)}:
+            g[py][px] = "."
+    for pid, (bx, by) in BASE_POS.items():
+        g[by][bx] = pid.lower()
+    return g
+
+
 def make_map(seed):
+    if MAZE:
+        return make_maze(seed)
     """Open field. Each base sits in a corner inside a brick ring. Four steel walls run in from the
     middle of each edge (length WALL), so no straight shot along an edge connects one base area to
     another. A few random bricks, mirrored four ways so the map stays fair."""
@@ -79,6 +147,7 @@ def make_map(seed):
         g[mid][W - 1 - i] = "@"      # right edge, between b and d
     rng = random.Random(seed)
     cand = [(x, y) for x in range(mid) for y in range(mid) if g[y][x] == "." and not (x <= 3 and y <= 3)]
+    cand = [(x, y) for x, y in cand if (x, y) not in SPAWN_POS.values()]
     for x, y in rng.sample(cand, EXTRA_BRICKS):
         for px, py in [(x, y), (W - 1 - x, y), (x, H - 1 - y), (W - 1 - x, H - 1 - y)]:
             g[py][px] = "#"
@@ -95,7 +164,7 @@ class Game:
         for pid, m in zip(IDS, models):
             self.players[pid] = {"model": m, "pos": SPAWN_POS[pid], "face": START_FACE[pid], "lives": LIVES,
                                  "base": True, "hits": 0, "kills": 0, "invalid": 0, "action": None, "why": "",
-                                 "latency_s": None, "plan": [], "source": None, "calls": 0, "blocked": False, "line_seen": set(), "events_since": []}
+                                 "latency_s": None, "plan": [], "source": None, "calls": 0, "blocked": False, "line_seen": set(), "seen": {}, "events_since": []}
         self.events = []  # (round, actor, text)
         self.shots = []   # for the viewer: path of every shell
         self.thinking = []
@@ -138,18 +207,40 @@ class Game:
 
     def log(self, actor, text):
         self.events.append((self.round, actor, text))
+        loud = "HIT" in text or "DESTROYED" in text
         for pid, p in self.players.items():
-            if pid != actor:
+            if pid != actor and (loud or self.visible(pid, actor)):
                 p["events_since"].append(text)
 
     def can_act(self, pid):
         p = self.players[pid]
         return p["base"] and p["lives"] > 0
 
+    def visible(self, viewer, target):
+        """Can viewer see target's tank? Always true without fog."""
+        if viewer == target or FOG is None:
+            return True
+        if not self.can_act(target):
+            return False
+        tx, ty = self.players[target]["pos"]
+        for ox, oy in (self.players[viewer]["pos"], BASE_POS[viewer]):
+            if max(abs(tx - ox), abs(ty - oy)) <= FOG:
+                return True
+        return False
+
+    def refresh_sight(self):
+        """Record where each player last saw each enemy."""
+        if FOG is None:
+            return
+        for v in IDS:
+            for t in IDS:
+                if v != t and self.visible(v, t):
+                    self.players[v]["seen"][t] = (self.players[t]["pos"], self.round)
+
     def in_line(self, pid):
-        """Enemy tanks sharing a row or column with this tank (walls ignored)."""
+        """Visible enemy tanks sharing a row or column with this tank (walls ignored)."""
         me = self.players[pid]["pos"]
-        return [o for o in IDS if o != pid and self.can_act(o)
+        return [o for o in IDS if o != pid and self.can_act(o) and self.visible(pid, o)
                 and (self.players[o]["pos"][0] == me[0] or self.players[o]["pos"][1] == me[1])]
 
     def need_call(self, pid):
@@ -255,19 +346,21 @@ class Game:
         return sorted(self.players, key=lambda i: (self.players[i]["base"], self.players[i]["lives"], self.players[i]["hits"]), reverse=True)
 
     # ---- views
-    def board(self):
+    def board(self, viewer=None):
         out = ["    " + "".join(f"{x:>3}" for x in range(W))]
         for y in range(H):
             line = f"{y:>3} "
             for x in range(W):
                 t = self.tank_at(x, y)
+                if t and viewer and not self.visible(viewer, t):
+                    t = None
                 line += f"{t or self.cell(x, y):>3}"
             out.append(line)
         return "\n".join(out)
 
     def prompt(self, pid, reason):
         p = self.players[pid]
-        lines = [f"Round {self.round} of {self.rounds}. Player {pid}, you are asked now because {reason}.", "", self.board(), ""]
+        lines = [f"Round {self.round} of {self.rounds}. Player {pid}, you are asked now because {reason}.", "", self.board(pid), ""]
         lines.append(f"You: tank {pid} at {p['pos']} facing {p['face']}, lives {p['lives']}. Your base '{pid.lower()}' at {BASE_POS[pid]}.")
         for o, q in self.players.items():
             if o == pid:
@@ -276,8 +369,12 @@ class Game:
                 lines.append(f"{o}: out of the game (base destroyed).")
             elif q["lives"] <= 0:
                 lines.append(f"{o}: no tank (0 lives), base '{o.lower()}' at {BASE_POS[o]} still alive.")
-            else:
+            elif self.visible(pid, o):
                 lines.append(f"{o}: tank at {q['pos']} facing {q['face']}, lives {q['lives']}, base '{o.lower()}' at {BASE_POS[o]} alive.")
+            else:
+                seen = p["seen"].get(o)
+                where = f"last seen at {seen[0]} in round {seen[1]}" if seen else "never seen"
+                lines.append(f"{o}: tank out of sight ({where}), lives {q['lives']}, base '{o.lower()}' at {BASE_POS[o]} alive.")
         lines.append("")
         if p["events_since"]:
             lines.append("Since you were last asked:")
@@ -293,7 +390,8 @@ class Game:
     def state(self, status=""):
         return {
             "game": self.game_id, "round": self.round, "rounds": self.rounds, "grid": ["".join(r) for r in self.grid],
-            "players": {pid: {k: v for k, v in p.items() if k not in ("events_since", "line_seen")} for pid, p in self.players.items()},
+            "players": {pid: {k: v for k, v in p.items() if k not in ("events_since", "line_seen", "seen")} for pid, p in self.players.items()},
+            "fog": FOG, "size": W,
             "events": [{"round": r, "actor": a, "text": t} for r, a, t in self.events[-40:]],
             "shots": self.shots[-12:], "thinking": self.thinking, "over": self.over, "winner": self.winner, "ranking": self.ranking(),
             "status": status, "updated": time.time(),
@@ -387,15 +485,27 @@ def main():
     ap.add_argument("--delay", type=float, default=0.0, help="pause per planned action and per random-bot reply (viewing speed)")
     ap.add_argument("--parallel", action="store_true", help="players who need a new plan think at once; replies apply in arrival order")
     ap.add_argument("--effort", default=None, help="claude --effort level for players, e.g. low")
+    ap.add_argument("--fog", type=int, default=None, help="enemy tanks visible only within N cells of your tank or base")
+    ap.add_argument("--size", type=int, default=15, help="board size (odd, >= 15)")
+    ap.add_argument("--maze", action="store_true", help="brick maze with steel posts instead of the open field")
+    ap.add_argument("--moves", type=int, default=1, help="actions per turn in sequential mode (each player acts N times in a row)")
     args = ap.parse_args()
+    if args.parallel and args.moves != 1:
+        ap.error("--moves works in sequential mode only")
+    global FOG, MAZE
+    FOG = args.fog
+    MAZE = args.maze
+    set_size(args.size)
 
     g = Game(args.models, args.seed, args.rounds)
     rng = random.Random(args.seed)
     sessions = {pid: {"id": str(uuid.uuid4()), "calls": 0} for pid in IDS}
     cwd = tempfile.mkdtemp(prefix="tank_arena_")
-    order_line = ORDER["parallel" if args.parallel else "sequential"]
+    order_line = ORDER["parallel"] if args.parallel else ORDER["moves"].format(moves=args.moves) if args.moves > 1 else ORDER["sequential"]
+    rate = "one per round" if args.moves == 1 else f"{args.moves} per round, one after another on your turn"
+    fog_line = FOG_LINE.format(fog=FOG) if FOG is not None else ""
     rules = {pid: RULES.format(me=pid, w=W, h=H, wm=W - 1, hm=H - 1, lives=LIVES, rounds=args.rounds,
-                               order_line=order_line, plan_max=PLAN_MAX) for pid in IDS}
+                               order_line=order_line, fog_line=fog_line, plan_max=PLAN_MAX, rate=rate) for pid in IDS}
 
     def ask(pid, prompt):
         p = g.players[pid]
@@ -421,7 +531,7 @@ def main():
 
     with log.open("w", encoding="utf-8") as f:
         f.write(json.dumps({"type": "meta", "started": stamp, "models": dict(zip(IDS, args.models)), "rules": rules["A"],
-                            "map": ["".join(r) for r in g.grid], "args": vars(args), "log": str(log)}) + "\n")
+                            "map": ["".join(r) for r in g.grid], "fog": FOG, "size": W, "moves": args.moves, "maze": MAZE, "args": vars(args), "log": str(log)}) + "\n")
 
         def record(pid, action, source, order, prompt=None, reason=None, r=None, valid=True, n_before=0):
             p = g.players[pid]
@@ -433,6 +543,7 @@ def main():
                    "state": {q: {"pos": g.players[q]["pos"], "lives": g.players[q]["lives"], "base": g.players[q]["base"]} for q in IDS}}
             f.write(json.dumps(rec, ensure_ascii=False) + "\n")
             f.flush()
+            g.refresh_sight()
             write_state(state_path, g.state())
             ev = g.events[n_before][2] if len(g.events) > n_before else ""
             lat = f"[{r.get('latency_s')}s]" if r else "[plan]"
@@ -470,6 +581,7 @@ def main():
             g.apply(pid, acts[0])
             record(pid, acts[0], "model", order, prompt, reason, r, valid, n_before)
 
+        g.refresh_sight()
         for rnd in range(1, args.rounds + 1):
             g.round = rnd
             if args.parallel:
@@ -504,20 +616,21 @@ def main():
                 g.thinking = []
             else:
                 for order, pid in enumerate(IDS, 1):
+                    for _step in range(args.moves):  # a player's whole turn: --moves actions in a row
+                        if g.over or not g.can_act(pid):
+                            break
+                        reason = g.need_call(pid)
+                        if reason is None:
+                            run_plan(pid, order)
+                            continue
+                        p = g.players[pid]
+                        g.thinking = [pid]
+                        write_state(state_path, g.state(f"{pid} ({p['model']}) is thinking"))
+                        prompt = g.prompt(pid, reason)
+                        p["events_since"] = []
+                        commit(pid, prompt, reason, ask(pid, prompt), order)
                     if g.over:
                         break
-                    if not g.can_act(pid):
-                        continue
-                    reason = g.need_call(pid)
-                    if reason is None:
-                        run_plan(pid, order)
-                        continue
-                    p = g.players[pid]
-                    g.thinking = [pid]
-                    write_state(state_path, g.state(f"{pid} ({p['model']}) is thinking"))
-                    prompt = g.prompt(pid, reason)
-                    p["events_since"] = []
-                    commit(pid, prompt, reason, ask(pid, prompt), order)
             if g.over:
                 break
         if not g.over:  # round limit with more than one base alive: nobody wins

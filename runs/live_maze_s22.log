@@ -1,0 +1,199 @@
+viewer: http://127.0.0.1:8765/viewer.html
+r01 A   haiku #1   [2.5s] RIGHT | A turned RIGHT at (1, 2) (blocked) | Tank A faces RIGHT at (1, 2), and the cell to the right (2, 2) is a steel wall, 
+r01 B  sonnet #2   [5.1s] DOWN  | B moved DOWN to (13, 3) | Move out along row 5 toward the center column to reach the enemy bases.
+r01 C   haiku #3   [3.7s] UP    | C moved UP to (1, 11) | My tank is boxed in by steel on the left and right and my own base below, so I t
+r01 D  sonnet #4   [4.2s] UP    | D moved UP to (13, 11) | I move out of the base pocket to row 9, where I can see enemies and still guard 
+r02 A   haiku #1   [3.0s] UP    | A turned UP at (1, 2) (blocked) | Tank A is boxed in on the right by steel at (2, 2), and UP leads to (1, 1), whic
+r02 B  sonnet #2   [plan] DOWN  | B moved DOWN to (13, 4) | Move out along row 5 toward the center column to reach the enemy bases.
+r02 C   haiku #3   [plan] FIRE  | C fired UP from (1, 11): destroyed brick at (1,8) | My tank is boxed in by steel on the left and right and my own base below, so I t
+r02 D  sonnet #4   [plan] UP    | D moved UP to (13, 10) | I move out of the base pocket to row 9, where I can see enemies and still guard 
+r03 A   haiku #1   [3.2s] DOWN  | A moved DOWN to (1, 3) | (1, 3) is empty, so DOWN moves tank A out of the pocket, and then two RIGHT move
+r03 B  sonnet #2   [plan] DOWN  | B moved DOWN to (13, 5) | Move out along row 5 toward the center column to reach the enemy bases.
+r03 C   haiku #3   [plan] UP    | C moved UP to (1, 10) | My tank is boxed in by steel on the left and right and my own base below, so I t
+r03 D  sonnet #4   [plan] UP    | D moved UP to (13, 9) | I move out of the base pocket to row 9, where I can see enemies and still guard 
+r04 A   haiku #1   [plan] RIGHT | A moved RIGHT to (2, 3) | (1, 3) is empty, so DOWN moves tank A out of the pocket, and then two RIGHT move
+r04 B  sonnet #2   [3.4s] LEFT  | B moved LEFT to (12, 5) | Walls block D's shots in my column, so I keep moving along row 5 toward the cent
+r04 C   haiku #3   [6.5s] UP    | C moved UP to (1, 9) | Row 9 is open, so I move up to it and run east toward enemy base d at (13, 13), 
+r04 D  sonnet #4   [6.6s] LEFT  | D moved LEFT to (12, 9) | The brick above me protects my base, so I head to column 7 to find a path to ene
+r05 A   haiku #1   [plan] RIGHT | A moved RIGHT to (3, 3) | (1, 3) is empty, so DOWN moves tank A out of the pocket, and then two RIGHT move
+r05 B  sonnet #2   [plan] LEFT  | B moved LEFT to (11, 5) | Walls block D's shots in my column, so I keep moving along row 5 toward the cent
+r05 C   haiku #3   [plan] RIGHT | C moved RIGHT to (2, 9) | Row 9 is open, so I move up to it and run east toward enemy base d at (13, 13), 
+r05 D  sonnet #4   [plan] LEFT  | D moved LEFT to (11, 9) | The brick above me protects my base, so I head to column 7 to find a path to ene
+r06 A   haiku #1   [3.5s] RIGHT | A moved RIGHT to (4, 3) | Cells (4, 3) and (5, 3) are empty, so two RIGHT moves bring tank A next to the b
+r06 B  sonnet #2   [plan] LEFT  | B moved LEFT to (10, 5) | Walls block D's shots in my column, so I keep moving along row 5 toward the cent
+r06 C   haiku #3   [plan] RIGHT | C moved RIGHT to (3, 9) | Row 9 is open, so I move up to it and run east toward enemy base d at (13, 13), 
+r06 D  sonnet #4   [plan] LEFT  | D moved LEFT to (10, 9) | The brick above me protects my base, so I head to column 7 to find a path to ene
+r07 A   haiku #1   [plan] RIGHT | A moved RIGHT to (5, 3) | Cells (4, 3) and (5, 3) are empty, so two RIGHT moves bring tank A next to the b
+r07 B  sonnet #2   [plan] LEFT  | B moved LEFT to (9, 5) | Walls block D's shots in my column, so I keep moving along row 5 toward the cent
+r07 C   haiku #3   [plan] RIGHT | C moved RIGHT to (4, 9) | Row 9 is open, so I move up to it and run east toward enemy base d at (13, 13), 
+r07 D  sonnet #4   [plan] LEFT  | D moved LEFT to (9, 9) | The brick above me protects my base, so I head to column 7 to find a path to ene
+r08 A   haiku #1   [plan] FIRE  | A fired RIGHT from (5, 3): destroyed brick at (6,3) | Cells (4, 3) and (5, 3) are empty, so two RIGHT moves bring tank A next to the b
+r08 B  sonnet #2   [plan] LEFT  | B moved LEFT to (8, 5) | Walls block D's shots in my column, so I keep moving along row 5 toward the cent
+r08 C   haiku #3   [plan] RIGHT | C moved RIGHT to (5, 9) | Row 9 is open, so I move up to it and run east toward enemy base d at (13, 13), 
+r08 D  sonnet #4   [4.2s] FIRE  | D fired LEFT: HIT tank C at (5, 9), C has 2 lives, respawned at (1, 12) | C is in my row and I already face it, so I shoot it.
+r09 A   haiku #1   [4.5s] DOWN  | A moved DOWN to (5, 4) | Enemy tank B is at (8, 5) on row 5, and cells (5, 4), (5, 5), (6, 5) and (7, 5) 
+r09 B  sonnet #2   [3.7s] LEFT  | B moved LEFT to (7, 5) | Step into column 7 and head south, away from A's row, toward D's base.
+r09 C   haiku #3   [4.2s] UP    | C moved UP to (1, 11) | My tank is back at (1, 12) with 2 lives, and the path up through (1, 11) is now 
+r09 D  sonnet #4   [plan] FIRE  | D fired LEFT from (9, 9): destroyed brick at (0,9) | C is in my row and I already face it, so I shoot it.
+r10 A   haiku #1   [plan] DOWN  | A moved DOWN to (5, 5) | Enemy tank B is at (8, 5) on row 5, and cells (5, 4), (5, 5), (6, 5) and (7, 5) 
+r10 B  sonnet #2   [3.0s] FIRE  | B fired LEFT: HIT tank A at (5, 5), A has 2 lives, respawned at (1, 2) | A is in my row facing me with a clear line, so I shoot first.
+r10 C   haiku #3   [4.0s] UP    | C moved UP to (1, 10) | I move up to (1, 10) only, so I can see if any enemy tank has come into range be
+r10 D  sonnet #4   [5.6s] UP    | D turned UP at (9, 9) (blocked) | I cut through the bricks in column 9 to reach row 5 and then base b, away from B
+r11 A   haiku #1   [3.6s] DOWN  | A moved DOWN to (1, 3) | Steel at (2, 2) blocks RIGHT, so DOWN moves tank A to (1, 3); two RIGHT moves al
+r11 B  sonnet #2   [plan] FIRE  | B fired LEFT from (7, 5): destroyed brick at (0,5) | A is in my row facing me with a clear line, so I shoot first.
+r11 C   haiku #3   [2.8s] UP    | C moved UP to (1, 9) | Nothing was seen last round, so I move up into open row 9 and head east toward e
+r11 D  sonnet #4   [3.5s] FIRE  | D fired UP from (9, 9): destroyed brick at (9,8) | I am facing up now, so I break the brick at (9,8), move up, break the brick at (
+r12 A   haiku #1   [plan] RIGHT | A moved RIGHT to (2, 3) | Steel at (2, 2) blocks RIGHT, so DOWN moves tank A to (1, 3); two RIGHT moves al
+r12 B  sonnet #2   [5.0s] DOWN  | B moved DOWN to (7, 6) | Go down column 7 to row 9 to fight D and open the way to its base.
+r12 C   haiku #3   [plan] RIGHT | C moved RIGHT to (2, 9) | Nothing was seen last round, so I move up into open row 9 and head east toward e
+r12 D  sonnet #4   [plan] UP    | D moved UP to (9, 8) | I am facing up now, so I break the brick at (9,8), move up, break the brick at (
+r13 A   haiku #1   [plan] RIGHT | A moved RIGHT to (3, 3) | Steel at (2, 2) blocks RIGHT, so DOWN moves tank A to (1, 3); two RIGHT moves al
+r13 B  sonnet #2   [plan] DOWN  | B moved DOWN to (7, 7) | Go down column 7 to row 9 to fight D and open the way to its base.
+r13 C   haiku #3   [plan] RIGHT | C moved RIGHT to (3, 9) | Nothing was seen last round, so I move up into open row 9 and head east toward e
+r13 D  sonnet #4   [plan] UP    | D moved UP to (9, 7) | I am facing up now, so I break the brick at (9,8), move up, break the brick at (
+r14 A   haiku #1   [plan] FIRE  | A fired RIGHT from (3, 3): destroyed brick at (8,3) | Steel at (2, 2) blocks RIGHT, so DOWN moves tank A to (1, 3); two RIGHT moves al
+r14 B  sonnet #2   [3.4s] RIGHT | B moved RIGHT to (8, 7) | Move next to D and face it, then shoot before it can turn and fire.
+r14 C   haiku #3   [plan] RIGHT | C moved RIGHT to (4, 9) | Nothing was seen last round, so I move up into open row 9 and head east toward e
+r14 D  sonnet #4   [4.7s] UP    | D turned UP at (9, 7) (blocked) | B is next to me and aims at me, so I step out of its line and keep going toward 
+r15 A   haiku #1   [3.6s] RIGHT | A moved RIGHT to (4, 3) | Row 3 is now clear from (4, 3) to (13, 3), so eight RIGHT moves carry tank A tow
+r15 B  sonnet #2   [plan] FIRE  | B fired RIGHT: HIT tank D at (9, 7), D has 2 lives, respawned at (13, 12) | Move next to D and face it, then shoot before it can turn and fire.
+r15 C   haiku #3   [5.8s] RIGHT | C moved RIGHT to (5, 9) | I keep moving east along row 9, which stays shielded from B by the steel at (8, 
+r15 D  sonnet #4   [4.9s] UP    | D moved UP to (13, 11) | I go back to column 9, which is now open, to reach row 5 and attack base b.
+r16 A   haiku #1   [4.6s] RIGHT | A moved RIGHT to (5, 3) | Row 3 is still clear from (5, 3) to (13, 3), so eight RIGHT moves bring tank A c
+r16 B  sonnet #2   [plan] FIRE  | B fired RIGHT from (8, 7): shell hit steel at (13,7) | Move next to D and face it, then shoot before it can turn and fire.
+r16 C   haiku #3   [plan] RIGHT | C moved RIGHT to (6, 9) | I keep moving east along row 9, which stays shielded from B by the steel at (8, 
+r16 D  sonnet #4   [plan] UP    | D moved UP to (13, 10) | I go back to column 9, which is now open, to reach row 5 and attack base b.
+r17 A   haiku #1   [plan] RIGHT | A moved RIGHT to (6, 3) | Row 3 is still clear from (5, 3) to (13, 3), so eight RIGHT moves bring tank A c
+r17 B  sonnet #2   [5.4s] LEFT  | B moved LEFT to (7, 7) | A is running along row 3 toward my base, so I move to row 3 behind it to shoot i
+r17 C   haiku #3   [plan] RIGHT | C moved RIGHT to (7, 9) | I keep moving east along row 9, which stays shielded from B by the steel at (8, 
+r17 D  sonnet #4   [plan] UP    | D moved UP to (13, 9) | I go back to column 9, which is now open, to reach row 5 and attack base b.
+r18 A   haiku #1   [plan] RIGHT | A moved RIGHT to (7, 3) | Row 3 is still clear from (5, 3) to (13, 3), so eight RIGHT moves bring tank A c
+r18 B  sonnet #2   [6.9s] UP    | B moved UP to (7, 6) | Leave column 7 where A and C can shoot me, and use row 5 to get back toward my b
+r18 C   haiku #3   [3.8s] RIGHT | C moved RIGHT to (8, 9) | B is now in my column at (7, 6) and could turn and fire down at me, so I move ea
+r18 D  sonnet #4   [plan] LEFT  | D moved LEFT to (12, 9) | I go back to column 9, which is now open, to reach row 5 and attack base b.
+r19 A   haiku #1   [3.7s] DOWN  | A moved DOWN to (7, 4) | Enemy tank B is at (7, 6) in my column, facing UP with (7, 4) and (7, 5) empty, 
+r19 B  sonnet #2   [plan] UP    | B moved UP to (7, 5) | Leave column 7 where A and C can shoot me, and use row 5 to get back toward my b
+r19 C   haiku #3   [6.1s] FIRE  | C fired RIGHT: HIT tank D at (12, 9), D has 1 lives, respawned at (13, 12) | I am facing RIGHT and D is at (12, 9) in my row with the cells between us empty,
+r19 D  sonnet #4   [8.8s] STAY  | D stayed at (13, 12) | I have one life left, so I hold the walled spot next to my base and react when a
+r20 A   haiku #1   [2.4s] FIRE  | A fired DOWN: HIT tank B at (7, 5), B has 2 lives, respawned at (13, 2) | Enemy tank B is now at (7, 5), directly below tank A at (7, 4), and I am already
+r20 B  sonnet #2   [7.0s] DOWN  | B moved DOWN to (13, 3) | Hold (13,3) facing down so my base stays sealed and I can shoot anyone who comes
+r20 C   haiku #3   [3.8s] RIGHT | C moved RIGHT to (9, 9) | D is down to 1 life and out of sight, so I run east along the empty row 9 to col
+r20 D  sonnet #4   [5.5s] UP    | D moved UP to (13, 11) | I face up in column 13 so I can shoot C if it comes to my column, without firing
+r21 A   haiku #1   [3.4s] FIRE  | A fired DOWN from (7, 4): shell hit steel at (7,13) | Tank A faces DOWN along column 7, where the empty cells (7, 5) to (7, 7) let a s
+r21 B  sonnet #2   [plan] STAY  | B stayed at (13, 3) | Hold (13,3) facing down so my base stays sealed and I can shoot anyone who comes
+r21 C   haiku #3   [plan] RIGHT | C moved RIGHT to (10, 9) | D is down to 1 life and out of sight, so I run east along the empty row 9 to col
+r21 D  sonnet #4   [plan] STAY  | D stayed at (13, 11) | I face up in column 13 so I can shoot C if it comes to my column, without firing
+r22 A   haiku #1   [plan] STAY  | A stayed at (7, 4) | Tank A faces DOWN along column 7, where the empty cells (7, 5) to (7, 7) let a s
+r22 B  sonnet #2   [plan] STAY  | B stayed at (13, 3) | Hold (13,3) facing down so my base stays sealed and I can shoot anyone who comes
+r22 C   haiku #3   [plan] RIGHT | C moved RIGHT to (11, 9) | D is down to 1 life and out of sight, so I run east along the empty row 9 to col
+r22 D  sonnet #4   [5.1s] STAY  | D stayed at (13, 11) | C is coming toward my column, and I will be asked again when it enters, then I s
+r23 A   haiku #1   [2.9s] UP    | A moved UP to (7, 3) | Row 3 is clear from (7, 3) to (13, 3), so UP, six RIGHT moves and a final UP bri
+r23 B  sonnet #2   [plan] STAY  | B stayed at (13, 3) | Hold (13,3) facing down so my base stays sealed and I can shoot anyone who comes
+r23 C   haiku #3   [plan] RIGHT | C moved RIGHT to (12, 9) | D is down to 1 life and out of sight, so I run east along the empty row 9 to col
+r23 D  sonnet #4   [plan] STAY  | D stayed at (13, 11) | C is coming toward my column, and I will be asked again when it enters, then I s
+r24 A   haiku #1   [plan] RIGHT | A moved RIGHT to (8, 3) | Row 3 is clear from (7, 3) to (13, 3), so UP, six RIGHT moves and a final UP bri
+r24 B  sonnet #2   [6.4s] DOWN  | B moved DOWN to (13, 4) | Only destroying bases wins, so I go through column 9 to row 9 to shoot D's base 
+r24 C   haiku #3   [plan] RIGHT | C moved RIGHT to (13, 9) | D is down to 1 life and out of sight, so I run east along the empty row 9 to col
+r24 D  sonnet #4   [3.1s] FIRE  | D fired UP: HIT tank C at (13, 9), C has 1 lives, respawned at (1, 12) | C is two cells above me in my column and I face it, so I shoot first.
+r25 A   haiku #1   [2.6s] RIGHT | A moved RIGHT to (9, 3) | Row 3 is clear from (9, 3) to (13, 3), so five RIGHT moves, then UP to (13, 2), 
+r25 B  sonnet #2   [5.9s] UP    | B moved UP to (13, 3) | A is racing along row 3 toward my base, so I step into row 3 facing it and shoot
+r25 C   haiku #3   [6.1s] UP    | C moved UP to (1, 11) | I have 1 life left and respawned at (1, 12), so I move up the open column 1 to (
+r25 D  sonnet #4   [plan] FIRE  | D fired UP from (13, 11): destroyed brick at (13,8) | C is two cells above me in my column and I face it, so I shoot first.
+r26 A   haiku #1   [2.7s] FIRE  | A fired RIGHT: HIT tank B at (13, 3), B has 1 lives, respawned at (13, 2) | Enemy tank B is at (13, 3) in my row, and (10, 3) to (12, 3) are empty while I a
+r26 B  sonnet #2   [5.3s] STAY  | B stayed at (13, 2) | With one life left I stay out of row 3 and wait for A to come into my column, th
+r26 C   haiku #3   [3.3s] UP    | C moved UP to (1, 10) | I have 1 life, so I move carefully up column 1 to row 9 and stop there to check 
+r26 D  sonnet #4   [5.1s] UP    | D moved UP to (13, 10) | A draw is a loss, so I take the open column 9 route toward base b while B and C 
+r27 A   haiku #1   [plan] FIRE  | A fired RIGHT from (9, 3): destroyed brick at (14,3) | Enemy tank B is at (13, 3) in my row, and (10, 3) to (12, 3) are empty while I a
+r27 B  sonnet #2   [plan] STAY  | B stayed at (13, 2) | With one life left I stay out of row 3 and wait for A to come into my column, th
+r27 C   haiku #3   [plan] UP    | C moved UP to (1, 9) | I have 1 life, so I move carefully up column 1 to row 9 and stop there to check 
+r27 D  sonnet #4   [plan] UP    | D moved UP to (13, 9) | A draw is a loss, so I take the open column 9 route toward base b while B and C 
+r28 A   haiku #1   [4.1s] RIGHT | A moved RIGHT to (10, 3) | B sits at (13, 2) with one life left, and four RIGHT moves along empty row 3 bri
+r28 B  sonnet #2   [plan] STAY  | B stayed at (13, 2) | With one life left I stay out of row 3 and wait for A to come into my column, th
+r28 C   haiku #3   [3.9s] RIGHT | C moved RIGHT to (2, 9) | Nothing was seen, so I move east along open row 9 for four steps and will reasse
+r28 D  sonnet #4   [plan] LEFT  | D moved LEFT to (12, 9) | A draw is a loss, so I take the open column 9 route toward base b while B and C 
+r29 A   haiku #1   [plan] RIGHT | A moved RIGHT to (11, 3) | B sits at (13, 2) with one life left, and four RIGHT moves along empty row 3 bri
+r29 B  sonnet #2   [4.1s] STAY  | B stayed at (13, 2) | A is two steps from my column, so I wait, then turn down and shoot when it stand
+r29 C   haiku #3   [plan] RIGHT | C moved RIGHT to (3, 9) | Nothing was seen, so I move east along open row 9 for four steps and will reasse
+r29 D  sonnet #4   [plan] LEFT  | D moved LEFT to (11, 9) | A draw is a loss, so I take the open column 9 route toward base b while B and C 
+r30 A   haiku #1   [plan] RIGHT | A moved RIGHT to (12, 3) | B sits at (13, 2) with one life left, and four RIGHT moves along empty row 3 bri
+r30 B  sonnet #2   [plan] STAY  | B stayed at (13, 2) | A is two steps from my column, so I wait, then turn down and shoot when it stand
+r30 C   haiku #3   [plan] RIGHT | C moved RIGHT to (4, 9) | Nothing was seen, so I move east along open row 9 for four steps and will reasse
+r30 D  sonnet #4   [plan] LEFT  | D moved LEFT to (10, 9) | A draw is a loss, so I take the open column 9 route toward base b while B and C 
+r31 A   haiku #1   [plan] RIGHT | A moved RIGHT to (13, 3) | B sits at (13, 2) with one life left, and four RIGHT moves along empty row 3 bri
+r31 B  sonnet #2   [2.4s] DOWN  | B turned DOWN at (13, 2) (blocked) | A stands right below me, so I turn down (blocked, so I only turn) and shoot it.
+r31 C   haiku #3   [plan] RIGHT | C moved RIGHT to (5, 9) | Nothing was seen, so I move east along open row 9 for four steps and will reasse
+r31 D  sonnet #4   [plan] LEFT  | D moved LEFT to (9, 9) | A draw is a loss, so I take the open column 9 route toward base b while B and C 
+r32 A   haiku #1   [2.5s] UP    | A turned UP at (13, 3) (blocked) | Enemy tank B is directly above tank A at (13, 2) with one life left, so UP only 
+r32 B  sonnet #2   [2.5s] FIRE  | B fired DOWN: HIT tank A at (13, 3), A has 1 lives, respawned at (1, 2) | A is facing up at me but I shoot first, since it is my turn now.
+r32 C   haiku #3   [3.0s] FIRE  | C fired RIGHT: HIT tank D at (9, 9), D has no lives left, tank D is gone | I am facing RIGHT and D is at (9, 9) in my row with the cells between us empty, 
+r33 A   haiku #1   [3.6s] DOWN  | A moved DOWN to (1, 3) | Tank A has one life left and respawned at (1, 2), where steel at (2, 2) blocks R
+r33 B  sonnet #2   [6.5s] DOWN  | B moved DOWN to (13, 3) | D has no tank left, so its base is open; I go around through column 7 to reach i
+r33 C   haiku #3   [3.2s] RIGHT | C moved RIGHT to (6, 9) | D has no tank left, so I run east along the empty row 9 toward column 13, where 
+r34 A   haiku #1   [plan] RIGHT | A moved RIGHT to (2, 3) | Tank A has one life left and respawned at (1, 2), where steel at (2, 2) blocks R
+r34 B  sonnet #2   [plan] DOWN  | B moved DOWN to (13, 4) | D has no tank left, so its base is open; I go around through column 7 to reach i
+r34 C   haiku #3   [plan] RIGHT | C moved RIGHT to (7, 9) | D has no tank left, so I run east along the empty row 9 toward column 13, where 
+r35 A   haiku #1   [plan] RIGHT | A moved RIGHT to (3, 3) | Tank A has one life left and respawned at (1, 2), where steel at (2, 2) blocks R
+r35 B  sonnet #2   [plan] DOWN  | B moved DOWN to (13, 5) | D has no tank left, so its base is open; I go around through column 7 to reach i
+r35 C   haiku #3   [plan] RIGHT | C moved RIGHT to (8, 9) | D has no tank left, so I run east along the empty row 9 toward column 13, where 
+r36 A   haiku #1   [plan] RIGHT | A moved RIGHT to (4, 3) | Tank A has one life left and respawned at (1, 2), where steel at (2, 2) blocks R
+r36 B  sonnet #2   [plan] LEFT  | B moved LEFT to (12, 5) | D has no tank left, so its base is open; I go around through column 7 to reach i
+r36 C   haiku #3   [plan] RIGHT | C moved RIGHT to (9, 9) | D has no tank left, so I run east along the empty row 9 toward column 13, where 
+r37 A   haiku #1   [plan] RIGHT | A moved RIGHT to (5, 3) | Tank A has one life left and respawned at (1, 2), where steel at (2, 2) blocks R
+r37 B  sonnet #2   [plan] LEFT  | B moved LEFT to (11, 5) | D has no tank left, so its base is open; I go around through column 7 to reach i
+r37 C   haiku #3   [plan] RIGHT | C moved RIGHT to (10, 9) | D has no tank left, so I run east along the empty row 9 toward column 13, where 
+r38 A   haiku #1   [plan] RIGHT | A moved RIGHT to (6, 3) | Tank A has one life left and respawned at (1, 2), where steel at (2, 2) blocks R
+r38 B  sonnet #2   [plan] LEFT  | B moved LEFT to (10, 5) | D has no tank left, so its base is open; I go around through column 7 to reach i
+r38 C   haiku #3   [3.6s] RIGHT | C moved RIGHT to (11, 9) | B is in my column, but the steel at (10, 6) blocks its shots, so I keep heading 
+r39 A   haiku #1   [plan] RIGHT | A moved RIGHT to (7, 3) | Tank A has one life left and respawned at (1, 2), where steel at (2, 2) blocks R
+r39 B  sonnet #2   [plan] LEFT  | B moved LEFT to (9, 5) | D has no tank left, so its base is open; I go around through column 7 to reach i
+r39 C   haiku #3   [plan] RIGHT | C moved RIGHT to (12, 9) | B is in my column, but the steel at (10, 6) blocks its shots, so I keep heading 
+r40 A   haiku #1   [plan] RIGHT | A moved RIGHT to (8, 3) | Tank A has one life left and respawned at (1, 2), where steel at (2, 2) blocks R
+r40 B  sonnet #2   [plan] LEFT  | B moved LEFT to (8, 5) | D has no tank left, so its base is open; I go around through column 7 to reach i
+r40 C   haiku #3   [plan] RIGHT | C moved RIGHT to (13, 9) | B is in my column, but the steel at (10, 6) blocks its shots, so I keep heading 
+r41 A   haiku #1   [3.3s] RIGHT | A moved RIGHT to (9, 3) | Steel at (8, 4) blocks the shot between tank A and B at (8, 5), so I keep going 
+r41 B  sonnet #2  [11.5s] RIGHT | B moved RIGHT to (9, 5) | A is rushing my base along row 3, so I chase into row 3 behind it and shoot alon
+r41 C   haiku #3   [plan] DOWN  | C moved DOWN to (13, 10) | B is in my column, but the steel at (10, 6) blocks its shots, so I keep heading 
+r42 A   haiku #1   [plan] RIGHT | A moved RIGHT to (10, 3) | Steel at (8, 4) blocks the shot between tank A and B at (8, 5), so I keep going 
+r42 B  sonnet #2   [plan] UP    | B moved UP to (9, 4) | A is rushing my base along row 3, so I chase into row 3 behind it and shoot alon
+r42 C   haiku #3   [plan] FIRE  | C fired DOWN: DESTROYED base of D at (13, 13), player D is out | B is in my column, but the steel at (10, 6) blocks its shots, so I keep heading 
+r43 A   haiku #1   [2.9s] RIGHT | A moved RIGHT to (11, 3) | B is at (9, 4), diagonal from tank A and not in my row or column, so I keep head
+r43 B  sonnet #2   [4.4s] UP    | B moved UP to (9, 3) | I enter row 3 behind A facing right and shoot along the row to stop it before it
+r43 C   haiku #3   [7.4s] UP    | C moved UP to (13, 9) | Base d is gone, and steel blocks column 13 above row 8, so I go up to row 9 and 
+r44 A   haiku #1   [3.0s] LEFT  | A moved LEFT to (10, 3) | Enemy tank B is at (9, 3) in my row with one life left, and LEFT moves tank A to
+r44 B  sonnet #2   [4.7s] DOWN  | B moved DOWN to (9, 4) | A faces me and will fire next, and I cannot shoot it this turn, so I step out of
+r44 C   haiku #3   [plan] LEFT  | C moved LEFT to (12, 9) | Base d is gone, and steel blocks column 13 above row 8, so I go up to row 9 and 
+r45 A   haiku #1   [plan] FIRE  | A fired LEFT from (10, 3): destroyed brick at (0,3) | Enemy tank B is at (9, 3) in my row with one life left, and LEFT moves tank A to
+r45 B  sonnet #2   [6.5s] STAY  | B stayed at (9, 4) | A cannot hit me at (9,4) from where it is, so I wait for it to step above me and
+r45 C   haiku #3   [plan] LEFT  | C moved LEFT to (11, 9) | Base d is gone, and steel blocks column 13 above row 8, so I go up to row 9 and 
+r46 A   haiku #1   [4.4s] LEFT  | A moved LEFT to (9, 3) | B is at (9, 4) with one life, diagonal from tank A, so LEFT moves me to (9, 3) d
+r46 B  sonnet #2   [2.5s] UP    | B turned UP at (9, 4) (blocked) | A is directly above me, so I turn up (blocked, turn only) and shoot before it ca
+r46 C   haiku #3   [plan] LEFT  | C moved LEFT to (10, 9) | Base d is gone, and steel blocks column 13 above row 8, so I go up to row 9 and 
+r47 A   haiku #1   [2.8s] DOWN  | A turned DOWN at (9, 3) (blocked) | Enemy tank B is at (9, 4) directly below tank A and facing UP at me, so DOWN onl
+r47 B  sonnet #2   [2.5s] FIRE  | B fired UP: HIT tank A at (9, 3), A has no lives left, tank A is gone | A is directly above me and now facing me, so I must hit it first.
+r47 C   haiku #3   [3.5s] LEFT  | C moved LEFT to (9, 9) | Tank A is gone, so I continue west to (7, 9) and then climb column 7, which is o
+r48 B  sonnet #2   [4.8s] UP    | B moved UP to (9, 3) | A is out, so I run west along open row 3 to reach column 1 and shoot base a.
+r48 C   haiku #3   [plan] LEFT  | C moved LEFT to (8, 9) | Tank A is gone, so I continue west to (7, 9) and then climb column 7, which is o
+r49 B  sonnet #2   [plan] LEFT  | B moved LEFT to (8, 3) | A is out, so I run west along open row 3 to reach column 1 and shoot base a.
+r49 C   haiku #3   [plan] LEFT  | C moved LEFT to (7, 9) | Tank A is gone, so I continue west to (7, 9) and then climb column 7, which is o
+r50 B  sonnet #2   [plan] LEFT  | B moved LEFT to (7, 3) | A is out, so I run west along open row 3 to reach column 1 and shoot base a.
+r50 C   haiku #3   [plan] UP    | C moved UP to (7, 8) | Tank A is gone, so I continue west to (7, 9) and then climb column 7, which is o
+r51 B  sonnet #2   [plan] LEFT  | B moved LEFT to (6, 3) | A is out, so I run west along open row 3 to reach column 1 and shoot base a.
+r51 C   haiku #3   [plan] UP    | C moved UP to (7, 7) | Tank A is gone, so I continue west to (7, 9) and then climb column 7, which is o
+r52 B  sonnet #2   [plan] LEFT  | B moved LEFT to (5, 3) | A is out, so I run west along open row 3 to reach column 1 and shoot base a.
+r52 C   haiku #3   [plan] UP    | C moved UP to (7, 6) | Tank A is gone, so I continue west to (7, 9) and then climb column 7, which is o
+r53 B  sonnet #2   [plan] LEFT  | B moved LEFT to (4, 3) | A is out, so I run west along open row 3 to reach column 1 and shoot base a.
+r53 C   haiku #3   [plan] UP    | C moved UP to (7, 5) | Tank A is gone, so I continue west to (7, 9) and then climb column 7, which is o
+r54 B  sonnet #2   [plan] LEFT  | B moved LEFT to (3, 3) | A is out, so I run west along open row 3 to reach column 1 and shoot base a.
+r54 C   haiku #3   [6.7s] UP    | C moved UP to (7, 4) | B has 1 life at (3, 3) in row 3, so I climb to (7, 3), move left to face it, and
+r55 B  sonnet #2   [plan] LEFT  | B moved LEFT to (2, 3) | A is out, so I run west along open row 3 to reach column 1 and shoot base a.
+r55 C   haiku #3   [plan] UP    | C moved UP to (7, 3) | B has 1 life at (3, 3) in row 3, so I climb to (7, 3), move left to face it, and
+r56 B  sonnet #2   [3.0s] LEFT  | B moved LEFT to (1, 3) | Reach column 1 and shoot base a straight up.
+r56 C   haiku #3   [plan] LEFT  | C moved LEFT to (6, 3) | B has 1 life at (3, 3) in row 3, so I climb to (7, 3), move left to face it, and
+r57 B  sonnet #2   [plan] UP    | B moved UP to (1, 2) | Reach column 1 and shoot base a straight up.
+r57 C   haiku #3   [plan] FIRE  | C fired LEFT from (6, 3): shell left the board | B has 1 life at (3, 3) in row 3, so I climb to (7, 3), move left to face it, and
+r58 B  sonnet #2   [plan] FIRE  | B fired UP: DESTROYED base of A at (1, 1), player A is out | Reach column 1 and shoot base a straight up.
+r58 C   haiku #3   [5.9s] RIGHT | C moved RIGHT to (7, 3) | Base b at (13, 1) is the only enemy base left, so destroying it would win, but I
+r59 B  sonnet #2   [3.0s] STAY  | B stayed at (1, 2) | Base c cannot be reached in the last two rounds, so I hold my position.
+r59 C   haiku #3   [plan] RIGHT | C moved RIGHT to (8, 3) | Base b at (13, 1) is the only enemy base left, so destroying it would win, but I
+r60 B  sonnet #2   [plan] STAY  | B stayed at (1, 2) | Base c cannot be reached in the last two rounds, so I hold my position.
+r60 C   haiku #3   [plan] RIGHT | C moved RIGHT to (9, 3) | Base b at (13, 1) is the only enemy base left, so destroying it would win, but I

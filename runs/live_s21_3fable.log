@@ -1,0 +1,184 @@
+viewer: http://127.0.0.1:8765/viewer.html
+r01 A    opus #1   [5.4s] DOWN  | A moved DOWN to (2, 3) | I go along row 3 toward (13,3), so that I can fire up through the brick at (13,2
+r01 B   fable #2  [17.2s] LEFT  | B moved LEFT to (11, 2) | My base is sealed by bricks, so I head south toward (13,11) to break D's brick a
+r01 C   fable #3  [10.9s] UP    | C moved UP to (2, 11) | Row 11 is fully open, so I move along it toward column 13 to shoot down at base 
+r01 D   fable #4  [10.4s] UP    | D moved UP to (12, 11) | Move along row 11 toward (3,13) to break the brick at (2,13) and shoot base c fr
+r02 A    opus #1   [plan] RIGHT | A moved RIGHT to (3, 3) | I go along row 3 toward (13,3), so that I can fire up through the brick at (13,2
+r02 B   fable #2   [plan] DOWN  | B moved DOWN to (11, 3) | My base is sealed by bricks, so I head south toward (13,11) to break D's brick a
+r02 C   fable #3   [plan] RIGHT | C moved RIGHT to (3, 11) | Row 11 is fully open, so I move along it toward column 13 to shoot down at base 
+r02 D   fable #4   [plan] LEFT  | D moved LEFT to (11, 11) | Move along row 11 toward (3,13) to break the brick at (2,13) and shoot base c fr
+r03 A    opus #1   [plan] RIGHT | A moved RIGHT to (4, 3) | I go along row 3 toward (13,3), so that I can fire up through the brick at (13,2
+r03 B   fable #2   [plan] DOWN  | B moved DOWN to (11, 4) | My base is sealed by bricks, so I head south toward (13,11) to break D's brick a
+r03 C   fable #3   [plan] RIGHT | C moved RIGHT to (4, 11) | Row 11 is fully open, so I move along it toward column 13 to shoot down at base 
+r03 D   fable #4   [plan] LEFT  | D moved LEFT to (10, 11) | Move along row 11 toward (3,13) to break the brick at (2,13) and shoot base c fr
+r04 A    opus #1   [plan] RIGHT | A moved RIGHT to (5, 3) | I go along row 3 toward (13,3), so that I can fire up through the brick at (13,2
+r04 B   fable #2   [plan] RIGHT | B moved RIGHT to (12, 4) | My base is sealed by bricks, so I head south toward (13,11) to break D's brick a
+r04 C   fable #3   [plan] RIGHT | C moved RIGHT to (5, 11) | Row 11 is fully open, so I move along it toward column 13 to shoot down at base 
+r04 D   fable #4   [plan] LEFT  | D moved LEFT to (9, 11) | Move along row 11 toward (3,13) to break the brick at (2,13) and shoot base c fr
+r05 A    opus #1   [plan] RIGHT | A moved RIGHT to (6, 3) | I go along row 3 toward (13,3), so that I can fire up through the brick at (13,2
+r05 B   fable #2   [plan] DOWN  | B moved DOWN to (12, 5) | My base is sealed by bricks, so I head south toward (13,11) to break D's brick a
+r05 C   fable #3   [5.0s] FIRE  | C fired RIGHT: HIT tank D at (9, 11), D has 2 lives, respawned at (12, 12) | D is in my row with a clear line and I already face it, so I shoot first.
+r05 D   fable #4   [8.3s] UP    | D moved UP to (12, 11) | Get into row 11 facing left and shoot along the row where C is coming toward my 
+r06 A    opus #1   [3.2s] RIGHT | A moved RIGHT to (7, 3) | I keep moving to (13,3) and face up, so I can fire through the brick at (13,2) a
+r06 B   fable #2   [5.5s] DOWN  | B moved DOWN to (12, 6) | Continue south around the steel wall toward (13,11) to attack base d; D respawne
+r06 C   fable #3   [7.6s] RIGHT | C moved RIGHT to (6, 11) | D respawned near its base, so I keep moving along the open row 11 toward column 
+r06 D   fable #4   [plan] LEFT  | D moved LEFT to (11, 11) | Get into row 11 facing left and shoot along the row where C is coming toward my 
+r07 A    opus #1   [plan] RIGHT | A moved RIGHT to (8, 3) | I keep moving to (13,3) and face up, so I can fire through the brick at (13,2) a
+r07 B   fable #2   [plan] LEFT  | B moved LEFT to (11, 6) | Continue south around the steel wall toward (13,11) to attack base d; D respawne
+r07 C   fable #3   [plan] RIGHT | C moved RIGHT to (7, 11) | D respawned near its base, so I keep moving along the open row 11 toward column 
+r07 D   fable #4   [3.0s] FIRE  | D fired LEFT: HIT tank C at (7, 11), C has 2 lives, respawned at (2, 12) | C is in my row with a clear line, so I shoot now.
+r08 A    opus #1   [3.6s] RIGHT | A moved RIGHT to (9, 3) | The brick at (11,5) shields me from B, so I go on to (13,3) and fire up to break
+r08 B   fable #2  [13.8s] RIGHT | B moved RIGHT to (12, 6) | A is advancing along row 3 toward my sealed base, so I turn back to column 12 to
+r08 C   fable #3  [22.4s] STAY  | C stayed at (2, 12) | D is camping row 11 facing left, so I wait in row 12 where he cannot hit me, the
+r08 D   fable #4   [plan] FIRE  | D fired LEFT from (11, 11): shell left the board | C is in my row with a clear line, so I shoot now.
+r09 A    opus #1   [plan] RIGHT | A moved RIGHT to (10, 3) | The brick at (11,5) shields me from B, so I go on to (13,3) and fire up to break
+r09 B   fable #2   [plan] UP    | B moved UP to (12, 5) | A is advancing along row 3 toward my sealed base, so I turn back to column 12 to
+r09 C   fable #3   [plan] STAY  | C stayed at (2, 12) | D is camping row 11 facing left, so I wait in row 12 where he cannot hit me, the
+r09 D   fable #4  [10.8s] LEFT  | D moved LEFT to (10, 11) | Move up column 9 to reach row 3 and then attack base b from (13,3) while C is bu
+r10 A    opus #1   [plan] RIGHT | A moved RIGHT to (11, 3) | The brick at (11,5) shields me from B, so I go on to (13,3) and fire up to break
+r10 B   fable #2   [plan] UP    | B moved UP to (12, 4) | A is advancing along row 3 toward my sealed base, so I turn back to column 12 to
+r10 C   fable #3   [plan] STAY  | C stayed at (2, 12) | D is camping row 11 facing left, so I wait in row 12 where he cannot hit me, the
+r10 D   fable #4   [plan] LEFT  | D moved LEFT to (9, 11) | Move up column 9 to reach row 3 and then attack base b from (13,3) while C is bu
+r11 A    opus #1   [plan] RIGHT | A moved RIGHT to (12, 3) | The brick at (11,5) shields me from B, so I go on to (13,3) and fire up to break
+r11 B   fable #2   [4.7s] FIRE  | B fired UP: HIT tank A at (12, 3), A has 2 lives, respawned at (2, 2) | A is adjacent above me and I face UP, so I shoot it now before it reaches my bas
+r11 C   fable #3  [11.2s] UP    | C moved UP to (2, 11) | D guards the south-east, so I head north via the open column 5 to attack base a 
+r11 D   fable #4  [10.9s] LEFT  | D moved LEFT to (8, 11) | B guards base b, so I switch to base c, going along row 11 to (3,13) to shoot th
+r12 A    opus #1   [6.5s] DOWN  | A moved DOWN to (2, 3) | B guards its base well, so I go down the left side to reach column 1 above base 
+r12 B   fable #2   [6.3s] DOWN  | B moved DOWN to (12, 5) | A is pushed back to its spawn, so I resume the southern route to (13,11) to brea
+r12 C   fable #3   [plan] RIGHT | C moved RIGHT to (3, 11) | D guards the south-east, so I head north via the open column 5 to attack base a 
+r12 D   fable #4   [plan] LEFT  | D moved LEFT to (7, 11) | B guards base b, so I switch to base c, going along row 11 to (3,13) to shoot th
+r13 A    opus #1   [plan] DOWN  | A moved DOWN to (2, 4) | B guards its base well, so I go down the left side to reach column 1 above base 
+r13 B   fable #2   [plan] DOWN  | B moved DOWN to (12, 6) | A is pushed back to its spawn, so I resume the southern route to (13,11) to brea
+r13 C   fable #3   [4.5s] FIRE  | C fired RIGHT: HIT tank D at (7, 11), D has 1 lives, respawned at (12, 12) | D is in my row, I face him with a clear line, and I act before him this round.
+r13 D   fable #4  [14.7s] STAY  | D stayed at (12, 12) | With one life left I hold near my base, facing left along row 12, and wait for C
+r14 A    opus #1   [3.1s] DOWN  | A moved DOWN to (2, 5) | I keep going around the steel to reach column 1 above base c, then I will fire d
+r14 B   fable #2   [4.8s] LEFT  | B moved LEFT to (11, 6) | Continue the route around the steel wall to (13,11); D has 1 life and respawned 
+r14 C   fable #3  [11.5s] RIGHT | C moved RIGHT to (4, 11) | D is down to one life and will come again along row 11, so I leave the row and g
+r14 D   fable #4   [plan] STAY  | D stayed at (12, 12) | With one life left I hold near my base, facing left along row 12, and wait for C
+r15 A    opus #1   [plan] DOWN  | A moved DOWN to (2, 6) | I keep going around the steel to reach column 1 above base c, then I will fire d
+r15 B   fable #2   [plan] DOWN  | B moved DOWN to (11, 7) | Continue the route around the steel wall to (13,11); D has 1 life and respawned 
+r15 C   fable #3   [plan] RIGHT | C moved RIGHT to (5, 11) | D is down to one life and will come again along row 11, so I leave the row and g
+r15 D   fable #4   [plan] STAY  | D stayed at (12, 12) | With one life left I hold near my base, facing left along row 12, and wait for C
+r16 A    opus #1   [plan] RIGHT | A moved RIGHT to (3, 6) | I keep going around the steel to reach column 1 above base c, then I will fire d
+r16 B   fable #2   [plan] DOWN  | B moved DOWN to (11, 8) | Continue the route around the steel wall to (13,11); D has 1 life and respawned 
+r16 C   fable #3   [plan] UP    | C moved UP to (5, 10) | D is down to one life and will come again along row 11, so I leave the row and g
+r16 D   fable #4   [plan] STAY  | D stayed at (12, 12) | With one life left I hold near my base, facing left along row 12, and wait for C
+r17 A    opus #1   [plan] DOWN  | A moved DOWN to (3, 7) | I keep going around the steel to reach column 1 above base c, then I will fire d
+r17 B   fable #2   [plan] RIGHT | B moved RIGHT to (12, 8) | Continue the route around the steel wall to (13,11); D has 1 life and respawned 
+r17 C   fable #3   [plan] UP    | C moved UP to (5, 9) | D is down to one life and will come again along row 11, so I leave the row and g
+r17 D   fable #4   [9.8s] LEFT  | D moved LEFT to (11, 12) | B is in my column and could turn down and shoot me, so I step out of column 12 a
+r18 A    opus #1   [plan] DOWN  | A moved DOWN to (3, 8) | I keep going around the steel to reach column 1 above base c, then I will fire d
+r18 B   fable #2   [plan] DOWN  | B moved DOWN to (12, 9) | Continue the route around the steel wall to (13,11); D has 1 life and respawned 
+r18 C   fable #3   [plan] UP    | C moved UP to (5, 8) | D is down to one life and will come again along row 11, so I leave the row and g
+r18 D   fable #4   [plan] STAY  | D stayed at (11, 12) | B is in my column and could turn down and shoot me, so I step out of column 12 a
+r19 A    opus #1   [3.3s] LEFT  | A moved LEFT to (2, 8) | C has left its base and a brick blocks C from me, so I go down column 1 and fire
+r19 B   fable #2   [plan] DOWN  | B moved DOWN to (12, 10) | Continue the route around the steel wall to (13,11); D has 1 life and respawned 
+r19 C   fable #3  [11.9s] DOWN  | C moved DOWN to (5, 9) | A is heading for my base down column 2, so I drop to row 11 and face left to cov
+r19 D   fable #4  [20.1s] UP    | D moved UP to (11, 11) | Move to row 11 facing right to cover (13,11), the spot B needs to shoot my base 
+r20 A    opus #1   [plan] LEFT  | A moved LEFT to (1, 8) | C has left its base and a brick blocks C from me, so I go down column 1 and fire
+r20 B   fable #2   [plan] DOWN  | B moved DOWN to (12, 11) | Continue the route around the steel wall to (13,11); D has 1 life and respawned 
+r20 C   fable #3   [plan] DOWN  | C moved DOWN to (5, 10) | A is heading for my base down column 2, so I drop to row 11 and face left to cov
+r20 D   fable #4   [4.6s] RIGHT | D turned RIGHT at (11, 11) (blocked) | B is adjacent in my row, so I turn right (blocked, turn only) and fire along row
+r21 A    opus #1   [plan] DOWN  | A moved DOWN to (1, 9) | C has left its base and a brick blocks C from me, so I go down column 1 and fire
+r21 B   fable #2  [11.1s] DOWN  | B moved DOWN to (12, 12) | D is aimed at me from the left, so I step out of its row, then turn UP to shoot 
+r21 C   fable #3   [plan] DOWN  | C moved DOWN to (5, 11) | A is heading for my base down column 2, so I drop to row 11 and face left to cov
+r21 D   fable #4  [15.1s] DOWN  | D moved DOWN to (11, 12) | Step to (11,12) to block the left approach to my base and turn right to shoot B 
+r22 A    opus #1   [plan] DOWN  | A moved DOWN to (1, 10) | C has left its base and a brick blocks C from me, so I go down column 1 and fire
+r22 B   fable #2   [plan] UP    | B moved UP to (12, 11) | D is aimed at me from the left, so I step out of its row, then turn UP to shoot 
+r22 C   fable #3   [plan] LEFT  | C moved LEFT to (4, 11) | A is heading for my base down column 2, so I drop to row 11 and face left to cov
+r22 D   fable #4   [plan] RIGHT | D moved RIGHT to (12, 12) | Step to (11,12) to block the left approach to my base and turn right to shoot B 
+r23 A    opus #1   [plan] DOWN  | A moved DOWN to (1, 11) | C has left its base and a brick blocks C from me, so I go down column 1 and fire
+r23 B   fable #2   [plan] FIRE  | B fired UP from (12, 11): shell hit steel at (12,7) | D is aimed at me from the left, so I step out of its row, then turn UP to shoot 
+r23 C   fable #3   [4.3s] FIRE  | C fired LEFT: HIT tank A at (1, 11), A has 1 lives, respawned at (2, 2) | A is at (1,11) in my row facing down to shoot my base, so I hit him now before h
+r23 D   fable #4   [5.5s] UP    | D turned UP at (12, 12) (blocked) | B is directly above me, so I turn up (blocked, turn only) and fire.
+r24 A    opus #1   [8.4s] DOWN  | A moved DOWN to (2, 3) | I have one life left, so I guard my base from (3,3), where I can see and fire al
+r24 B   fable #2  [11.2s] RIGHT | B moved RIGHT to (13, 11) | D is aimed up at me, so I step out of its column to (13,11), then face DOWN and 
+r24 C   fable #3   [plan] FIRE  | C fired LEFT from (4, 11): shell left the board | A is at (1,11) in my row facing down to shoot my base, so I hit him now before h
+r24 D   fable #4   [6.6s] UP    | D moved UP to (12, 11) | Move up to row 11 and turn right to shoot B at (13,11) before it can fire twice 
+r25 A    opus #1   [plan] RIGHT | A moved RIGHT to (3, 3) | I have one life left, so I guard my base from (3,3), where I can see and fire al
+r25 B   fable #2   [plan] DOWN  | B turned DOWN at (13, 11) (blocked) | D is aimed up at me, so I step out of its column to (13,11), then face DOWN and 
+r25 C   fable #3   [7.6s] RIGHT | C moved RIGHT to (5, 11) | Both nearby enemies are down to one life, so I push along row 11 to reach (13,11
+r25 D   fable #4   [4.3s] RIGHT | D turned RIGHT at (12, 11) (blocked) | Turn right toward B (blocked, turn only) and fire before it can shoot my base tw
+r26 A    opus #1   [plan] STAY  | A stayed at (3, 3) | I have one life left, so I guard my base from (3,3), where I can see and fire al
+r26 B   fable #2  [10.3s] UP    | B moved UP to (13, 10) | D is aimed at me from the left, so I dodge up out of its row and turn to shoot i
+r26 C   fable #3   [plan] RIGHT | C moved RIGHT to (6, 11) | Both nearby enemies are down to one life, so I push along row 11 to reach (13,11
+r26 D   fable #4   [6.2s] STAY  | D stayed at (12, 11) | I hold (12,11) facing right so I can shoot B the moment it returns to (13,11).
+r27 A    opus #1   [plan] STAY  | A stayed at (3, 3) | I have one life left, so I guard my base from (3,3), where I can see and fire al
+r27 B   fable #2   [plan] LEFT  | B moved LEFT to (12, 10) | D is aimed at me from the left, so I dodge up out of its row and turn to shoot i
+r27 C   fable #3   [plan] RIGHT | C moved RIGHT to (7, 11) | Both nearby enemies are down to one life, so I push along row 11 to reach (13,11
+r27 D   fable #4   [4.2s] UP    | D turned UP at (12, 11) (blocked) | B is directly above me facing left, so I turn up (blocked, turn only) and fire.
+r28 A    opus #1   [plan] STAY  | A stayed at (3, 3) | I have one life left, so I guard my base from (3,3), where I can see and fire al
+r28 B   fable #2  [15.1s] RIGHT | B moved RIGHT to (13, 10) | D is aimed up at me, so I dodge right out of its column and wait to see where it
+r28 C   fable #3   [plan] RIGHT | C moved RIGHT to (8, 11) | Both nearby enemies are down to one life, so I push along row 11 to reach (13,11
+r28 D   fable #4   [7.9s] DOWN  | D moved DOWN to (12, 12) | C faces me along row 11 and shoots first, so I drop to (12,12), then turn up to 
+r29 A    opus #1   [plan] STAY  | A stayed at (3, 3) | I have one life left, so I guard my base from (3,3), where I can see and fire al
+r29 B   fable #2   [plan] STAY  | B stayed at (13, 10) | D is aimed up at me, so I dodge right out of its column and wait to see where it
+r29 C   fable #3   [plan] RIGHT | C moved RIGHT to (9, 11) | Both nearby enemies are down to one life, so I push along row 11 to reach (13,11
+r29 D   fable #4   [plan] UP    | D moved UP to (12, 11) | C faces me along row 11 and shoots first, so I drop to (12,12), then turn up to 
+r30 A    opus #1   [plan] STAY  | A stayed at (3, 3) | I have one life left, so I guard my base from (3,3), where I can see and fire al
+r30 B   fable #2  [19.7s] STAY  | B stayed at (13, 10) | C is lined up to shoot D in row 11, so I wait one round out of both lines and th
+r30 C   fable #3   [4.9s] FIRE  | C fired RIGHT: HIT tank D at (12, 11), D has no lives left, tank D is gone | D sits in my row with a clear line and one life left, so I shoot him before he c
+r31 A    opus #1   [3.9s] STAY  | A stayed at (3, 3) | I have one life left, so I keep guarding my base while C and B fight and use up 
+r31 B   fable #2  [11.6s] DOWN  | B moved DOWN to (13, 11) | D is gone, so I drop to (13,11) and shoot through the brick into base d before C
+r31 C   fable #3   [7.1s] FIRE  | C fired RIGHT: HIT tank B at (13, 11), B has 2 lives, respawned at (12, 2) | B stands in my row about to shoot base d, so I knock him back to his base, then 
+r32 A    opus #1   [3.0s] STAY  | A stayed at (3, 3) | C is busy fighting B on the far side, so I keep my last life safe and guard my b
+r32 B   fable #2  [10.3s] DOWN  | B moved DOWN to (12, 3) | I respawned far from d, so I take the open row 3 west toward base a to break its
+r32 C   fable #3   [plan] RIGHT | C moved RIGHT to (10, 11) | B stands in my row about to shoot base d, so I knock him back to his base, then 
+r33 A    opus #1   [plan] STAY  | A stayed at (3, 3) | C is busy fighting B on the far side, so I keep my last life safe and guard my b
+r33 B   fable #2   [plan] LEFT  | B moved LEFT to (11, 3) | I respawned far from d, so I take the open row 3 west toward base a to break its
+r33 C   fable #3   [plan] RIGHT | C moved RIGHT to (11, 11) | B stands in my row about to shoot base d, so I knock him back to his base, then 
+r34 A    opus #1   [plan] STAY  | A stayed at (3, 3) | C is busy fighting B on the far side, so I keep my last life safe and guard my b
+r34 B   fable #2   [plan] LEFT  | B moved LEFT to (10, 3) | I respawned far from d, so I take the open row 3 west toward base a to break its
+r34 C   fable #3   [plan] RIGHT | C moved RIGHT to (12, 11) | B stands in my row about to shoot base d, so I knock him back to his base, then 
+r35 A    opus #1   [plan] STAY  | A stayed at (3, 3) | C is busy fighting B on the far side, so I keep my last life safe and guard my b
+r35 B   fable #2   [plan] LEFT  | B moved LEFT to (9, 3) | I respawned far from d, so I take the open row 3 west toward base a to break its
+r35 C   fable #3   [plan] RIGHT | C moved RIGHT to (13, 11) | B stands in my row about to shoot base d, so I knock him back to his base, then 
+r36 A    opus #1   [plan] STAY  | A stayed at (3, 3) | C is busy fighting B on the far side, so I keep my last life safe and guard my b
+r36 B   fable #2   [plan] LEFT  | B moved LEFT to (8, 3) | I respawned far from d, so I take the open row 3 west toward base a to break its
+r36 C   fable #3   [plan] DOWN  | C turned DOWN at (13, 11) (blocked) | B stands in my row about to shoot base d, so I knock him back to his base, then 
+r37 A    opus #1   [plan] STAY  | A stayed at (3, 3) | C is busy fighting B on the far side, so I keep my last life safe and guard my b
+r37 B   fable #2   [plan] LEFT  | B moved LEFT to (7, 3) | I respawned far from d, so I take the open row 3 west toward base a to break its
+r37 C   fable #3   [4.4s] FIRE  | C fired DOWN from (13, 11): destroyed brick at (13,12) | I am at (13,11) facing down; two shots clear the brick and destroy base d.
+r38 A    opus #1   [3.4s] FIRE  | A fired RIGHT: HIT tank B at (7, 3), B has 1 lives, respawned at (12, 2) | B is in my row and I already face it, so I fire first before B can shoot me.
+r38 B   fable #2  [12.7s] DOWN  | B moved DOWN to (12, 3) | With one life left I guard my base: I face DOWN at (12,2) so A must pass through
+r38 C   fable #3   [8.9s] FIRE  | C fired DOWN: DESTROYED base of D at (13, 13), player D is out | Finish base d with one more shot, then head west to the open column 9 to go nort
+r39 A    opus #1   [3.2s] STAY  | A stayed at (3, 3) | B is down to one life and C is far away, so I hold my guard spot and fire at any
+r39 B   fable #2  [23.5s] LEFT  | B moved LEFT to (11, 3) | A was last seen in row 3 heading my way, so I face LEFT and keep firing down the
+r39 C   fable #3   [plan] LEFT  | C moved LEFT to (12, 11) | Finish base d with one more shot, then head west to the open column 9 to go nort
+r40 A    opus #1   [plan] STAY  | A stayed at (3, 3) | B is down to one life and C is far away, so I hold my guard spot and fire at any
+r40 B   fable #2   [plan] FIRE  | B fired LEFT: HIT tank A at (3, 3), A has no lives left, tank A is gone | A was last seen in row 3 heading my way, so I face LEFT and keep firing down the
+r40 C   fable #3  [11.5s] LEFT  | C moved LEFT to (11, 11) | Base d is down, so I take the open column 9 north toward row 4 and then approach
+r41 B   fable #2   [plan] FIRE  | B fired LEFT from (11, 3): shell left the board | A was last seen in row 3 heading my way, so I face LEFT and keep firing down the
+r41 C   fable #3   [plan] LEFT  | C moved LEFT to (10, 11) | Base d is down, so I take the open column 9 north toward row 4 and then approach
+r42 B   fable #2   [plan] FIRE  | B fired LEFT from (11, 3): shell left the board | A was last seen in row 3 heading my way, so I face LEFT and keep firing down the
+r42 C   fable #3   [plan] LEFT  | C moved LEFT to (9, 11) | Base d is down, so I take the open column 9 north toward row 4 and then approach
+r43 B   fable #2   [plan] FIRE  | B fired LEFT from (11, 3): shell left the board | A was last seen in row 3 heading my way, so I face LEFT and keep firing down the
+r43 C   fable #3   [plan] UP    | C moved UP to (9, 10) | Base d is down, so I take the open column 9 north toward row 4 and then approach
+r44 B   fable #2   [plan] FIRE  | B fired LEFT from (11, 3): shell left the board | A was last seen in row 3 heading my way, so I face LEFT and keep firing down the
+r44 C   fable #3   [plan] UP    | C moved UP to (9, 9) | Base d is down, so I take the open column 9 north toward row 4 and then approach
+r45 B   fable #2   [plan] FIRE  | B fired LEFT from (11, 3): shell left the board | A was last seen in row 3 heading my way, so I face LEFT and keep firing down the
+r45 C   fable #3   [plan] UP    | C moved UP to (9, 8) | Base d is down, so I take the open column 9 north toward row 4 and then approach
+r46 B   fable #2   [plan] FIRE  | B fired LEFT from (11, 3): shell left the board | A was last seen in row 3 heading my way, so I face LEFT and keep firing down the
+r46 C   fable #3   [plan] UP    | C moved UP to (9, 7) | Base d is down, so I take the open column 9 north toward row 4 and then approach
+r47 B   fable #2   [8.7s] STAY  | B stayed at (11, 3) | C is coming north in column 9 and must cross row 3, where I face LEFT and will s
+r47 C   fable #3   [plan] UP    | C moved UP to (9, 6) | Base d is down, so I take the open column 9 north toward row 4 and then approach
+r48 B   fable #2   [plan] STAY  | B stayed at (11, 3) | C is coming north in column 9 and must cross row 3, where I face LEFT and will s
+r48 C   fable #3  [11.4s] UP    | C moved UP to (9, 5) | I go to (11,4) to shoot B from below while he faces left, then continue to (13,3
+r49 B   fable #2   [plan] STAY  | B stayed at (11, 3) | C is coming north in column 9 and must cross row 3, where I face LEFT and will s
+r49 C   fable #3   [plan] UP    | C moved UP to (9, 4) | I go to (11,4) to shoot B from below while he faces left, then continue to (13,3
+r50 B   fable #2   [plan] STAY  | B stayed at (11, 3) | C is coming north in column 9 and must cross row 3, where I face LEFT and will s
+r50 C   fable #3   [plan] RIGHT | C moved RIGHT to (10, 4) | I go to (11,4) to shoot B from below while he faces left, then continue to (13,3
+r51 B   fable #2   [plan] STAY  | B stayed at (11, 3) | C is coming north in column 9 and must cross row 3, where I face LEFT and will s
+r51 C   fable #3   [plan] RIGHT | C moved RIGHT to (11, 4) | I go to (11,4) to shoot B from below while he faces left, then continue to (13,3
+r52 B   fable #2   [5.2s] DOWN  | B turned DOWN at (11, 3) (blocked) | C is adjacent below me, so I turn DOWN (blocked, turn only) and shoot it before 
+r52 C   fable #3   [8.7s] RIGHT | C moved RIGHT to (12, 4) | B faces down at me and would fire after my turn, so I step out of his column fir
+r53 B   fable #2  [12.2s] RIGHT | B moved RIGHT to (12, 3) | C is heading for (13,3) to shoot my base, so I move to (12,3) facing RIGHT and w
+r53 C   fable #3   [5.9s] UP    | C turned UP at (12, 4) (blocked) | B sits right above me facing sideways; I turn up this round and fire before he c
+r54 B   fable #2   [5.0s] UP    | B moved UP to (12, 2) | C is aimed at me from below, so I step up to (12,2) out of its column and keep m
+r54 C   fable #3   [5.0s] FIRE  | C fired UP: HIT tank B at (12, 2), B has no lives left, tank B is gone | B is still in my column with a clear line, so I shoot him, then move to (13,3) a
+r55 C   fable #3   [plan] RIGHT | C moved RIGHT to (13, 4) | B is still in my column with a clear line, so I shoot him, then move to (13,3) a
+r56 C   fable #3   [plan] UP    | C moved UP to (13, 3) | B is still in my column with a clear line, so I shoot him, then move to (13,3) a
+r57 C   fable #3   [plan] FIRE  | C fired UP from (13, 3): destroyed brick at (13,2) | B is still in my column with a clear line, so I shoot him, then move to (13,3) a
+r58 C   fable #3   [plan] FIRE  | C fired UP: DESTROYED base of B at (13, 1), player B is out | B is still in my column with a clear line, so I shoot him, then move to (13,3) a
+r59 C   fable #3   [4.8s] LEFT  | C moved LEFT to (12, 3) | Base a cannot be reached in the last two rounds, so I simply move toward it; not
+r60 C   fable #3   [plan] LEFT  | C moved LEFT to (11, 3) | Base a cannot be reached in the last two rounds, so I simply move toward it; not
